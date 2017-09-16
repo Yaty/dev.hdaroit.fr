@@ -31,7 +31,7 @@ Based on Vue-admin from Fangdun Cai <cfddream@gmail.com>
 
 <script>
   export default {
-    name: 'project',
+    name: 'box',
     props: ['name', 'desc', 'link']
   }
 </script>

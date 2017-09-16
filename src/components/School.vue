@@ -42,7 +42,7 @@
 </template>
 
 <script>
-  import Media from './Media.vue'
+  import Media from './layout/Media.vue'
   import Container from './layout/Container.vue'
 
   export default {

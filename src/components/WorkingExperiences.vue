@@ -27,7 +27,7 @@
 
 <script>
   // TODO try to use box to see if it looks better
-  import Media from './Media.vue'
+  import Media from './layout/Media.vue'
   import Container from './layout/Container.vue'
 
   export default {

@@ -59,7 +59,7 @@
       <div class="container has-text-centered">
         <div class="columns is-multiline">
           <div class="column is-full">
-            <img style="border-radius: 50%; border: 1px solid black;"  src="../assets/photo.jpg" width="200">
+            <img id="logo"  src="../assets/photo.jpg" width="200">
           </div>
           <div class="column is-full">
             <h1 class="title is-2">Hugo Da Roit</h1>
@@ -96,7 +96,7 @@
             </div>
           </div>
           <div class="level-item is-hidden-mobile">
-            <a class="icon is-medium" href="#" v-scroll-to="'#welcome'" style="color: black;">
+            <a class="icon is-medium" href="#" v-scroll-to="'#welcome'" id="welcomeButton">
               <i class="fa fa-2x fa-blink fa-arrow-down"></i>
             </a>
           </div>
@@ -171,5 +171,17 @@
     z-index: 1000;
     width: 100%;
     border-bottom: thin solid gainsboro;
+  }
+
+  .hero-body {
+    margin-top: 10px;
+  }
+
+  #logo {
+    border-radius: 50%; border: 1px solid black;
+  }
+
+  #welcomeButton {
+    color: black;
   }
 </style>

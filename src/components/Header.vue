@@ -36,6 +36,7 @@
         <div id="navMenu" class="navbar-menu">
           <div class="navbar-end">
             <a class="navbar-item" href="#" v-scroll-to="'#projects'">{{ $t('header.projects') }}</a>
+            <a class="navbar-item" href="#" v-scroll-to="'#opensource'">{{ $t('header.opensource') }}</a>
             <a class="navbar-item" href="#" v-scroll-to="'#workingXp'">{{ $t('header.workXp') }}</a>
             <a class="navbar-item" href="#" v-scroll-to="'#school'">{{ $t('header.school') }}</a>
             <a class="navbar-item" href="#" v-scroll-to="'#contact'">{{ $t('header.contact') }}</a>

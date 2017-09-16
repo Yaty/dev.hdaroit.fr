@@ -40,7 +40,7 @@
 
       <div class="field is-grouped is-grouped-centered">
         <div class="control">
-          <a :class="{ button: true, 'is-primary': true, 'is-loading': contacting }" @click="send">
+          <a :class="{ button: true, 'is-primary': true, 'is-loading': contacting }" :disabled="isSubmitDisabled" @click="send">
             <span class="icon is-small" v-if="contactingSuccess">
               <i class="fa fa-check"></i>
             </span>
@@ -74,6 +74,17 @@
         contacting: null,
         contactingSuccess: null,
         invalidEmail: null
+      }
+    },
+    computed: {
+      isSubmitDisabled () {
+        const isEmailValid = Boolean(this.invalidEmail === false && this.email && this.email.length > 0)
+        const isNameValid = Boolean(this.name && this.name.length > 0)
+        const isSubjectValid = Boolean(this.subject && this.subject.length > 0)
+        const isMsgValid = Boolean(this.message && this.message.length > 0)
+        const isGotchaValid = Boolean(this.gotcha === null)
+        const res = Boolean(isEmailValid && isNameValid && isSubjectValid && isSubjectValid && isMsgValid && isGotchaValid)
+        return res === false
       }
     },
     watch: {

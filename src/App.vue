@@ -4,6 +4,7 @@
     <section class="section">
       <welcome></welcome>
       <projects></projects>
+      <opensource></opensource>
       <working-experiences></working-experiences>
       <school></school>
       <contact></contact>
@@ -16,6 +17,7 @@
   import MainHeader from './components/Header.vue'
   import Welcome from './components/Welcome.vue'
   import Projects from './components/Projects.vue'
+  import Opensource from './components/Opensource.vue'
   import WorkingExperiences from './components/WorkingExperiences.vue'
   import School from './components/School.vue'
   import Contact from './components/Contact.vue'
@@ -23,7 +25,7 @@
 
   export default {
     name: 'app',
-    components: { MainHeader, Welcome, Projects, WorkingExperiences, School, Contact, MainFooter }
+    components: { MainHeader, Welcome, Projects, Opensource, WorkingExperiences, School, Contact, MainFooter }
   }
 </script>
 

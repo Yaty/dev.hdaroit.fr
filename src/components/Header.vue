@@ -17,7 +17,7 @@
             <div class="control has-icons-left">
               <div class="select is-small">
                 <select title="Language Selector" v-model="language">
-                  <option v-for="lang in languages" :value="lang">{{ lang }}</option>
+                  <option v-for="lang in languages" :value="lang.toLowerCase()">{{ lang }}</option>
                 </select>
               </div>
               <div class="icon is-small is-left">

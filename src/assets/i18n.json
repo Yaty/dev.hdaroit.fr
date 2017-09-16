@@ -92,6 +92,7 @@
       "title": "Contact",
       "reset": "Reset",
       "submit": "Submit",
+      "mandatory": "mandatory",
       "name": {
         "label": "Name",
         "placeholder": "Your name"
@@ -204,6 +205,7 @@
       "title": "Contact",
       "reset": "Réinitialiser",
       "submit": "Envoyer",
+      "mandatory": "obligatoire",
       "name": {
         "label": "Nom",
         "placeholder": "Votre nom"

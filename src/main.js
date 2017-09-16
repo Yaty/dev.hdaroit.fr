@@ -28,5 +28,4 @@ new Vue({
 
 // TODO Prerendering : https://github.com/vuejs-templates/pwa/blob/bcf1b27e12637dfef4c5b18ae9af1ce1a95449ca/docs/prerender.md
 // TODO Checklist : https://developers.google.com/web/progressive-web-apps/checklist
-// TODO Update /static/img/icons icons
 // TODO Open source contribution (liste verticale qui tourne ?)

@@ -95,6 +95,11 @@
               <p class="heading">projects</p>
             </div>
           </div>
+          <div class="level-item">
+            <a class="icon is-medium" href="#welcome" style="color: black;">
+              <i class="fa fa-2x fa-blink fa-arrow-down"></i>
+            </a>
+          </div>
           <div class="level-item has-text-centered">
             <div>
               <p class="title">2</p>
@@ -145,5 +150,21 @@
   main {
     padding-bottom: 20px;
     border-bottom: thin solid gainsboro;
+  }
+
+  @keyframes fa-blink {
+    0% { opacity: 0; }
+    25% { opacity: 0.5; }
+    50% { opacity: 1; }
+    75% { opacity: 0.5; }
+    100% { opacity: 0; }
+  }
+
+  .fa-blink {
+    -webkit-animation: fa-blink 1.5s linear infinite;
+    -moz-animation: fa-blink 1.5s linear infinite;
+    -ms-animation: fa-blink 1.5s linear infinite;
+    -o-animation: fa-blink 1.5s linear infinite;
+    animation: fa-blink 1.5s linear infinite;
   }
 </style>

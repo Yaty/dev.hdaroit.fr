@@ -1,54 +1,34 @@
 <template>
   <div id="app">
-    <header>
-      <span>Vue.js PWA</span>
-    </header>
-    <main>
-      <img src="./assets/logo.png" alt="Vue.js PWA">
-      <router-view></router-view>
-    </main>
+    <main-header></main-header>
+    <section class="section">
+      <welcome></welcome>
+      <projects></projects>
+      <working-experiences></working-experiences>
+      <school></school>
+      <contact></contact>
+    </section>
+    <main-footer></main-footer>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'app'
-}
+  import MainHeader from './components/Header.vue'
+  import Welcome from './components/Welcome.vue'
+  import Projects from './components/Projects.vue'
+  import WorkingExperiences from './components/WorkingExperiences.vue'
+  import School from './components/School.vue'
+  import Contact from './components/Contact.vue'
+  import MainFooter from './components/Footer.vue'
+
+  export default {
+    name: 'app',
+    components: { MainHeader, Welcome, Projects, WorkingExperiences, School, Contact, MainFooter }
+  }
 </script>
 
-<style>
-body {
-  margin: 0;
-}
-
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-}
-
-main {
-  text-align: center;
-  margin-top: 40px;
-}
-
-header {
-  margin: 0;
-  height: 56px;
-  padding: 0 16px 0 24px;
-  background-color: #35495E;
-  color: #ffffff;
-}
-
-header span {
-  display: block;
-  position: relative;
-  font-size: 20px;
-  line-height: 1;
-  letter-spacing: .02em;
-  font-weight: 400;
-  box-sizing: border-box;
-  padding-top: 16px;
-}
+<style scoped>
+  #app .container:not(:first-child) {
+    padding-top: 2rem;
+  }
 </style>

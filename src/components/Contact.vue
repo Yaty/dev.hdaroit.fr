@@ -1,0 +1,118 @@
+<template>
+  <container id="contact">
+    <h2 class="title">Contact</h2>
+    <form class="box">
+      <div class="field">
+        <label class="label">Name</label>
+        <div class="control has-icons-left">
+          <input class="input" type="text" placeholder="Your name" v-model="name">
+          <span class="icon is-small is-left">
+            <i class="fa fa-user"></i>
+          </span>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Email</label>
+        <div class="control has-icons-left">
+          <input :class="{ input: true, 'is-danger': invalidEmail }" type="email" placeholder="Your email" v-model="email">
+          <span class="icon is-small is-left">
+            <i class="fa fa-envelope"></i>
+          </span>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Subject</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="Subject" v-model="subject">
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Message</label>
+        <div class="control">
+          <textarea class="textarea" placeholder="Message" v-model="message"></textarea>
+        </div>
+      </div>
+
+      <input class="is-hidden" type="text" v-model="gotcha"/>
+
+      <div class="field is-grouped is-grouped-centered">
+        <div class="control">
+          <a :class="{ button: true, 'is-primary': true, 'is-loading': contacting }" @click="send">
+            <span class="icon is-small" v-if="contactingSuccess">
+              <i class="fa fa-check"></i>
+            </span>
+            <span class="icon is-small" v-else-if="contactingSuccess === false">
+              <i class="fa fa-close"></i>
+            </span>
+            <span>Submit</span>
+          </a>
+        </div>
+        <div class="control">
+          <a class="button is-info" @click="reset">Reset</a>
+        </div>
+      </div>
+    </form>
+  </container>
+</template>
+
+<script>
+  import Container from './layout/Container.vue'
+
+  export default {
+    name: 'contact',
+    components: { Container },
+    data () {
+      return {
+        name: null,
+        subject: null,
+        email: null,
+        message: null,
+        gotcha: null,
+        contacting: null,
+        contactingSuccess: null,
+        invalidEmail: null
+      }
+    },
+    watch: {
+      email () {
+        if (this.email) {
+          this.invalidEmail = !/\S+@\S+\.\S+/.test(this.email)
+        }
+      }
+    },
+    methods: {
+      send () {
+        this.contacting = true
+        this.contactingSuccess = null
+        const http = new XMLHttpRequest()
+        const url = 'https://formspree.io/contact@hdaroit.fr' // We use Formspree in order to send the email
+        const data = {
+          _subject: this.subject,
+          _replyto: this.email,
+          _gotcha: this.gotcha,
+          name: this.name,
+          message: this.message
+        }
+
+        http.open('POST', url, true)
+        http.setRequestHeader('Content-Type', 'application/json')
+        http.onreadystatechange = () => {
+          if (http.readyState === XMLHttpRequest.DONE) {
+            this.contactingSuccess = http.status === 200
+            this.contacting = false
+          }
+        }
+        http.send(JSON.stringify(data))
+      },
+      reset () {
+        this.name = null
+        this.subject = null
+        this.email = null
+        this.message = null
+      }
+    }
+  }
+</script>

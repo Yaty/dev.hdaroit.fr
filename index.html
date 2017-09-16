@@ -24,10 +24,11 @@
         for (var file of chunk.files) {
           if (file.match(/\.(js|css)$/)) { %>
     <link rel="<%= chunk.initial?'preload':'prefetch' %>" href="<%= htmlWebpackPlugin.files.publicPath + file %>" as="<%= file.match(/\.css$/)?'style':'script' %>"><% }}} %>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <noscript>
-      This is your fallback content in case JavaScript fails to load.
+      Please enable Javascript and reload this page. Contact me : <a href="mailto:contact@hdaroit.fr">contact@hdaroit.fr</a>
     </noscript>
     <div id="app"></div>
     <!-- Todo: only include in production -->

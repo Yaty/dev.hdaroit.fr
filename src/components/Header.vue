@@ -1,10 +1,10 @@
 <template>
-  <main class="hero is-fullheight">
+  <main class="hero is-fullheight" id="header">
     <div class="hero-head">
       <div class="navbar">
         <div class="navbar-brand">
           <div class="navbar-item">
-            <a href="#">Home</a>
+            <a href="#" v-scroll-to="'#header'">Home</a>
           </div>
 
           <a class="navbar-item is-hidden-desktop" href="https://github.com/Yaty" target="_blank">
@@ -16,7 +16,7 @@
           <div class="navbar-item is-hidden-desktop">
             <div class="control has-icons-left">
               <div class="select is-small">
-                <select v-model="language">
+                <select title="Language Selector" v-model="language">
                   <option v-for="lang in languages" :value="lang">{{ lang }}</option>
                 </select>
               </div>
@@ -35,14 +35,14 @@
 
         <div id="navMenu" class="navbar-menu">
           <div class="navbar-end">
-            <a class="navbar-item" href="#projects">Projects</a>
-            <a class="navbar-item" href="#workingXp">Working experiences</a>
-            <a class="navbar-item" href="#school">Schooling</a>
-            <a class="navbar-item" href="#contact">Contact</a>
+            <a class="navbar-item" href="#" v-scroll-to="'#projects'">Projects</a>
+            <a class="navbar-item" href="#" v-scroll-to="'#workingXp'">Working experiences</a>
+            <a class="navbar-item" href="#" v-scroll-to="'#school'">Schooling</a>
+            <a class="navbar-item" href="#" v-scroll-to="'#contact'">Contact</a>
             <a class="navbar-item">
               <div class="control has-icons-left">
                 <div class="select is-small">
-                  <select v-model="language">
+                  <select title="Language Selector" v-model="language">
                     <option v-for="lang in languages" :value="lang">{{ lang }}</option>
                   </select>
                 </div>
@@ -75,7 +75,7 @@
             </span>
                 <span>GitHub</span>
               </a>
-              <a href="#contact" class="button is-medium is-primary">
+              <a href="#" v-scroll-to="'#contact'" class="button is-medium is-primary">
                 <span>Contact</span>
                 <span class="icon">
               <i class="fa fa-envelope"></i>
@@ -95,8 +95,8 @@
               <p class="heading">projects</p>
             </div>
           </div>
-          <div class="level-item">
-            <a class="icon is-medium" href="#welcome" style="color: black;">
+          <div class="level-item is-hidden-mobile">
+            <a class="icon is-medium" href="#" v-scroll-to="'#welcome'" style="color: black;">
               <i class="fa fa-2x fa-blink fa-arrow-down"></i>
             </a>
           </div>
@@ -118,7 +118,7 @@
     data () {
       return {
         language: null,
-        languages: ['FR', 'EN']
+        languages: ['EN', 'FR']
       }
     },
     mounted () {
@@ -166,5 +166,12 @@
     -ms-animation: fa-blink 1.5s linear infinite;
     -o-animation: fa-blink 1.5s linear infinite;
     animation: fa-blink 1.5s linear infinite;
+  }
+
+  .hero-head {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    border-bottom: thin solid gainsboro;
   }
 </style>

@@ -1,0 +1,224 @@
+{
+  "en": {
+    "header": {
+      "home": "Home",
+      "projects": "Projects",
+      "workXp": "Work experiences",
+      "school": "Schooling",
+      "contact": "Contact",
+      "job": "Full-stack developer",
+      "yearsXp": "years XP"
+    },
+    "welcome": {
+      "message": "I'm Hugo, a full-stack developer. I'm studying at the ESGI school in apprenticeship with Orange.<br>I'm currently loving the Javascript world mostly thanks to Vue.js and Node.js.<br>I used to code a lot with Java, C and Python for school and personal projects.<br>Have a look to my projects below :)",
+      "title": "Welcome !"
+    },
+    "projects": {
+      "title": "Projects",
+      "vue-spotify": {
+        "title": "Vue Spotify",
+        "desc": "A small wrapper for integrating spotify-web-api-node to Vuejs."
+      },
+      "mining": {
+        "title": "Mining exploration game",
+        "desc": "School project. 2D sandbox game. You embody a Miner and you have to find a diamond hidden in a gigantic tiled map with many obstacles."
+      },
+      "yaty": {
+        "title": "Yaty",
+        "desc": "Web/desktop application for managing a climbing gym."
+      },
+      "yatyapi": {
+        "title": "Yaty API",
+        "desc": "Full REST API for Yaty (JWT Auth, MySQL ...)."
+      },
+      "hdaroit": {
+        "title": "hdaroit.fr",
+        "desc": "This website, it's a <a target=\"_blank\" href=\"https://developers.google.com/web/progressive-web-apps/\">Progressive Web App</a> made with <a target=\"_blank\" href=\"https://vuejs.org/\">Vue.js</a> and <a target=\"_blank\" href=\"http://bulma.io/\">Bulma</a>."
+      },
+      "climbing-games": {
+        "title": "Interactive Climbing Games",
+        "desc": "Augmented reality games for climbing with Kinect."
+      },
+      "climbing-ranking": {
+        "title": "Climbing Competition Ranking",
+        "desc": "Create a ranking for your climbing events, it supports discipline like speed, bouldering or lead and also the combined. The GUI needs to be created."
+      },
+      "tdf": {
+        "title": "Tour de France",
+        "desc": "School project to interact with an Oracle database about the Tour de France."
+      },
+      "chat": {
+        "title": "Chat",
+        "desc": "School project. Simple java threaded chat with commands."
+      },
+      "paint": {
+        "title": "Multi-user paint app",
+        "desc": "Draw with multiple users ! C school project."
+      }
+    },
+    "working": {
+      "title": "Working Experiences",
+      "orange-intern": {
+        "title": "Intern in web development",
+        "duration": "March 2017 to June 2017",
+        "desc": "Web application to help about specifications<br>My work is within the framework of a development project for an offer of international communications, organized in agile method and short cycles.<br>Participation in the meetings of definition of the service with the project team, I had to understand the needs for the architects and the developers concerning the management of specification.<br>The main realized features are: specification versioning, chain of publication, annotations and notifications.<br>The solution is based on the modern Web technologies (Node.js, Vue.js) and inspired by the recent methods of development."
+      },
+      "lisi": {
+        "title": "Polyvalent operator",
+        "duration": "August 2016 & August 2017",
+        "desc": "Preventive maintenance<br>Handling"
+      }
+    },
+    "school": {
+      "title": "Schooling",
+      "esgi": {
+        "title": "Bachelor's degree, IT engineering (currently)",
+        "duration": "2017 to today",
+        "desc": "Specialized in software architecture."
+      },
+      "dut": {
+        "title": "Technology degree in IT",
+        "duration": "2015 to 2017",
+        "desc": "Shingshang game in C without GUI in C, then with a GUI in Java with JavaFX.<br>Mining exploration game in Java <a href=\"https://github.com/Yaty/explorationminiere\">GitHub</a>.<br>Web application (log, sell and buy stuff online).<br>Multi-user chat in Java.<br>Multi-user drawing application in C.<br>Web application to fully interact with an Oracle database.<br>Java application to simulate a parking (JavaFX GUI)."
+      },
+      "dumont": {
+        "title": "High school diploma in sciences",
+        "duration": "2013 to 2015",
+        "desc": "Specialized in engineering sciences, computing and digital science."
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "reset": "Reset",
+      "submit": "Submit",
+      "name": {
+        "label": "Name",
+        "placeholder": "Your name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Your email"
+      },
+      "subject": {
+        "label": "Subject",
+        "placeholder": "Subject"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Message"
+      }
+    },
+    "footer": "Made with <span class=\"icon\"><i class=\"fa fa-heart\"></i></span> by <a href=\"mailto:contact@hdaroit.fr\">Hugo Da Roit</a>.<br>The source code is licensed <a target=\"_blank\" href=\"http://opensource.org/licenses/mit-license.php\">MIT</a> and is available <a target=\"_blank\" href=\"https://github.com/Yaty/hdaroit.fr\">here</a>."
+  },
+  "fr": {
+    "header": {
+      "home": "Accueil",
+      "projects": "Projets",
+      "workXp": "Expériences de travail",
+      "school": "Scolarité",
+      "contact": "Contact",
+      "job": "Développeur full-stack",
+      "yearsXp": "années d'XP"
+    },
+    "welcome": {
+      "message": "Je suis Hugo, développeur full-stack. J'étudie à l'ESGI en apprentissage chez Orange.<br>Je suis actuellement fan de l'univers Javascript, nottament grâce à Vue.js et Node.js.<br>J'ai beaucoup codé avec Java, C et Python pour des projets personnels et scolaires.<br>Jetez un coup d'œil à mes projets ci-dessous :)",
+      "title": "Bienvenue !"
+    },
+    "projects": {
+      "title": "Projets",
+      "vue-spotify": {
+        "title": "Vue Spotify",
+        "desc": "Intégration de spotify-web-api-node dans Vuejs."
+      },
+      "mining": {
+        "title": "Jeu d'exploration minière",
+        "desc": "Projet scolaire. Jeu 2D type bac à sable. Vous incarnez un Mineur et vous devez trouver le diamant caché dans une carte gigantesque et remplie d'obstacles."
+      },
+      "yaty": {
+        "title": "Yaty",
+        "desc": "Application Web/Desktop pour gérer intégralement des salles d'escalades."
+      },
+      "yatyapi": {
+        "title": "Yaty API",
+        "desc": "API REST complète pour Yaty (JWT Auth, MySQL ...)."
+      },
+      "hdaroit": {
+        "title": "hdaroit.fr",
+        "desc": "Ce site, c'est une <a target=\"_blank\" href=\"https://developers.google.com/web/progressive-web-apps/\">Progressive Web App</a> réalisé avec l'aide de <a target=\"_blank\" href=\"https://vuejs.org/\">Vue.js</a> et <a target=\"_blank\" href=\"http://bulma.io/\">Bulma</a>."
+      },
+      "climbing-games": {
+        "title": "Jeux d'escalade",
+        "desc": "Jeux en réalité augmentée via la Kinect."
+      },
+      "climbing-ranking": {
+        "title": "Gestion de compétitions d'escalade",
+        "desc": "Créez un classement pour vos compétitions d'escalade, le logiciel gère les disciplines de la vitesse, du bloc, de la difficulté et du combiné. L'interface graphique n'est pas encore existante."
+      },
+      "tdf": {
+        "title": "Tour de France",
+        "desc": "Projet scolaire afin d'intéragir avec une base de données Oracle à propos du Tour de France."
+      },
+      "chat": {
+        "title": "Chat",
+        "desc": "Projet scolaire. Simple chat multi-utilisateurs avec commandes fonctionnant avec les Threads."
+      },
+      "paint": {
+        "title": "Paint multi-utilisateur",
+        "desc": "Dessinez sur une même fenêtre avec plusieurs personnes ! Projet scolaire en C."
+      }
+    },
+    "working": {
+      "title": "Expériences professionnelles",
+      "orange-intern": {
+        "title": "Stagiaire en développement web",
+        "duration": "Mars 2017 à Juin 2017",
+        "desc": "Réalisation d'une application web d'aide à la spécification.<br>Les travaux s'inscrivent dans le cadre d'un projet de développement pour une offre de communications à l'international, organisée en méthode agile et cycles courts.<br>Participation aux réunions de définition du service avec l'équipe projet, j'ai dû comprendre les besoins des architectes et développeurs concernant la gestion de spécification.<br>Les principales fonctionnalités réalisées sont : contrôle de gestion de version de spécification, chaîne de publication des spécifications, annotations, notifications.<br>La solution est basée sur les technologies web modernes (Node.js, Vue.js) et inspirées des méthodes de développement récentes."
+      },
+      "lisi": {
+        "title": "Opérateur Polyvalent",
+        "duration": "Août 2016 et Août 2017",
+        "desc": "Maintenance préventive<br>Manutention"
+      }
+    },
+    "school": {
+      "title": "Scolarité",
+      "esgi": {
+        "title": "Bachelor, Ingénierie Informatique (actuellement)",
+        "duration": "2017 à aujourd'hui",
+        "desc": "Cycle bachelor spécialité architecture des logiciels."
+      },
+      "dut": {
+        "title": "DUT Informatique",
+        "duration": "2015 à 2017",
+        "desc": "Réalisation du jeu de plateau \"Shingshang\" en C (sans GUI) puis en Java (avec GUI via JavaFX).<br>Création d'un jeu vidéo 2D de type bac à sable en Java (https://github.com/Yaty/explorationminiere).<br>Création d'une application web permettant de s'enregistrer, de vendre et d'acheter des produits divers.<br>Élaboration d'un serveur de discussion en Java.<br>Conception d'une application permettant à des clients des dessiner sur une fenêtre à distance en C.<br>Création d'un site internet afin de manipuler une base de données.<br>Adaptation d'un système permettant de simuler un parking en Java (JavaFX pour l'interface)."
+      },
+      "dumont": {
+        "title": "Baccalauréat Scientifique",
+        "duration": "2013 à 2015",
+        "desc": "Bac S Sciences de l'Ingénieur, spécialité Informatique et Sciences du Numérique<br>Mention Assez Bien"
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "reset": "Réinitialiser",
+      "submit": "Envoyer",
+      "name": {
+        "label": "Nom",
+        "placeholder": "Votre nom"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Votre email"
+      },
+      "subject": {
+        "label": "Sujet",
+        "placeholder": "Sujet"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Message"
+      }
+    },
+    "footer": "Fait avec <span class=\"icon\"><i class=\"fa fa-heart\"></i></span> par <a href=\"mailto:contact@hdaroit.fr\">Hugo Da Roit</a>.<br>Le code est sous licence <a target=\"_blank\" href=\"http://opensource.org/licenses/mit-license.php\">MIT</a> et est disponible <a target=\"_blank\" href=\"https://github.com/Yaty/hdaroit.fr\">ici</a>."
+  }
+}

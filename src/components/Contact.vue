@@ -1,11 +1,11 @@
 <template>
   <container id="contact">
-    <h2 class="title">Contact</h2>
+    <h2 class="title">{{ $t('contact.title') }}</h2>
     <form class="box">
       <div class="field">
-        <label class="label">Name</label>
+        <label class="label">{{ $t('contact.name.label') }}</label>
         <div class="control has-icons-left">
-          <input class="input" type="text" placeholder="Your name" v-model="name">
+          <input class="input" type="text" :placeholder="$t('contact.name.placeholder')" v-model="name">
           <span class="icon is-small is-left">
             <i class="fa fa-user"></i>
           </span>
@@ -13,9 +13,9 @@
       </div>
 
       <div class="field">
-        <label class="label">Email</label>
+        <label class="label">{{ $t('contact.email.label') }}</label>
         <div class="control has-icons-left">
-          <input :class="{ input: true, 'is-danger': invalidEmail }" type="email" placeholder="Your email" v-model="email">
+          <input :class="{ input: true, 'is-danger': invalidEmail }" type="email" :placeholder="$t('contact.email.placeholder')" v-model="email">
           <span class="icon is-small is-left">
             <i class="fa fa-envelope"></i>
           </span>
@@ -23,16 +23,16 @@
       </div>
 
       <div class="field">
-        <label class="label">Subject</label>
+        <label class="label">{{ $t('contact.subject.label') }}</label>
         <div class="control">
-          <input class="input" type="text" placeholder="Subject" v-model="subject">
+          <input class="input" type="text" :placeholder="$t('contact.subject.placeholder')" v-model="subject">
         </div>
       </div>
 
       <div class="field">
-        <label class="label">Message</label>
+        <label class="label">{{ $t('contact.message.label') }}</label>
         <div class="control">
-          <textarea class="textarea" placeholder="Message" v-model="message"></textarea>
+          <textarea class="textarea" :placeholder="$t('contact.message.placeholder')" v-model="message"></textarea>
         </div>
       </div>
 
@@ -47,11 +47,11 @@
             <span class="icon is-small" v-else-if="contactingSuccess === false">
               <i class="fa fa-close"></i>
             </span>
-            <span>Submit</span>
+            <span>{{ $t('contact.submit') }}</span>
           </a>
         </div>
         <div class="control">
-          <a class="button is-info" @click="reset">Reset</a>
+          <a class="button is-info" @click="reset">{{ $t('contact.reset') }}</a>
         </div>
       </div>
     </form>

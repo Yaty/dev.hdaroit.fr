@@ -4,7 +4,7 @@
       <div class="navbar">
         <div class="navbar-brand">
           <div class="navbar-item">
-            <a href="#" v-scroll-to="'#header'">Home</a>
+            <a href="#" v-scroll-to="'#header'">{{ $t('header.home') }}</a>
           </div>
 
           <a class="navbar-item is-hidden-desktop" href="https://github.com/Yaty" target="_blank">
@@ -35,15 +35,15 @@
 
         <div id="navMenu" class="navbar-menu">
           <div class="navbar-end">
-            <a class="navbar-item" href="#" v-scroll-to="'#projects'">Projects</a>
-            <a class="navbar-item" href="#" v-scroll-to="'#workingXp'">Working experiences</a>
-            <a class="navbar-item" href="#" v-scroll-to="'#school'">Schooling</a>
-            <a class="navbar-item" href="#" v-scroll-to="'#contact'">Contact</a>
+            <a class="navbar-item" href="#" v-scroll-to="'#projects'">{{ $t('header.projects') }}</a>
+            <a class="navbar-item" href="#" v-scroll-to="'#workingXp'">{{ $t('header.workXp') }}</a>
+            <a class="navbar-item" href="#" v-scroll-to="'#school'">{{ $t('header.school') }}</a>
+            <a class="navbar-item" href="#" v-scroll-to="'#contact'">{{ $t('header.contact') }}</a>
             <a class="navbar-item">
               <div class="control has-icons-left">
                 <div class="select is-small">
                   <select title="Language Selector" v-model="language">
-                    <option v-for="lang in languages" :value="lang">{{ lang }}</option>
+                    <option v-for="lang in languages" :value="lang.toLowerCase()">{{ lang }}</option>
                   </select>
                 </div>
                 <div class="icon is-small is-left">
@@ -65,7 +65,7 @@
             <h1 class="title is-2">Hugo Da Roit</h1>
           </div>
           <div class="column is-full">
-            <h2 class="subtitle is-4">Full-stack developer</h2>
+            <h2 class="subtitle is-4">{{ $t('header.job') }}</h2>
           </div>
           <div class="column is-full">
             <div class="hero-buttons">
@@ -76,7 +76,7 @@
                 <span>GitHub</span>
               </a>
               <a href="#" v-scroll-to="'#contact'" class="button is-medium is-primary">
-                <span>Contact</span>
+                <span>{{ $t('header.contact') }}</span>
                 <span class="icon">
               <i class="fa fa-envelope"></i>
             </span>
@@ -92,7 +92,7 @@
           <div class="level-item has-text-centered">
             <div>
               <p class="title">+ 10</p>
-              <p class="heading">projects</p>
+              <p class="heading">{{ $t('header.projects').toLowerCase() }}</p>
             </div>
           </div>
           <div class="level-item is-hidden-mobile">
@@ -103,7 +103,7 @@
           <div class="level-item has-text-centered">
             <div>
               <p class="title">2</p>
-              <p class="heading">years of XP</p>
+              <p class="heading">{{ $t('header.yearsXp') }}</p>
             </div>
           </div>
         </div>
@@ -117,13 +117,16 @@
     name: 'header',
     data () {
       return {
-        language: null,
+        language: this.$i18n.locale,
         languages: ['EN', 'FR']
       }
     },
+    watch: {
+      language () {
+        this.$i18n.locale = this.language
+      }
+    },
     mounted () {
-      this.language = this.languages[0]
-
       // Get all the navbar burger
       const $navbarBurger = document.querySelector('.navbar-burger')
 

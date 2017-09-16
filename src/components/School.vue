@@ -1,42 +1,35 @@
 <template>
   <container id="school">
-    <h2 class="title">Schooling</h2>
+    <h2 class="title">{{ $t('school.title') }}</h2>
     <media
       logo="/static/img/esgi.png"
-      title="Bachelor's degree, IT engineering (currently)"
+      :title="$t('school.esgi.title')"
       subtitle="ESGI"
-      duration="2017 to 2018"
+      :duration="$t('school.esgi.duration')"
       location="Paris, France"
     >
-      Cycle bachelor spécialité architecture des logiciels.
+      {{ $t('school.esgi.desc') }}
     </media>
 
     <media
       logo="/static/img/iutcaen.png"
-      title="DUT Informatique"
+      :title="$t('school.dut.title')"
       subtitle="IUT Caen"
-      duration="2015 to 2017"
+      :duration="$t('school.dut.duration')"
       location="Caen, France"
     >
-      Réalisation du jeu de plateau "Shingshang" en C (sans GUI) puis en Java (avec GUI via JavaFX).<br>
-      Création d'un jeu vidéo 2D de type bac à sable en Java (https://github.com/Yaty/explorationminiere).<br>
-      Création d'une application web permettant de s'enregistrer, de vendre et d'acheter des produits divers.<br>
-      Élaboration d'un serveur de discussion en Java.<br>
-      Conception d'une application permettant à des clients des dessiner sur une fenêtre à distance en C.<br>
-      Création d'un site internet afin de manipuler une base de données.<br>
-      Adaptation d'un système permettant de simuler un parking en Java (JavaFX pour l'interface).
+      <span v-html="$t('school.dut.desc')"></span>
     </media>
 
     <media
       logo="/static/img/dumont.svg"
-      title="Baccalauréat Scientifique"
+      :title="$t('school.dumont.title')"
       subtitle="Lycée Jules Dumont d'Urville"
-      duration="2013 to 2015"
+      :duration="$t('school.dumont.duration')"
       location="Caen, France"
       :separator="false"
     >
-      Bac S Sciences de l'Ingénieur, spécialité Informatique et Sciences du Numérique<br>
-      Mention Assez Bien
+      <span v-html="$t('school.dumont.desc')"></span>
     </media>
   </container>
 </template>

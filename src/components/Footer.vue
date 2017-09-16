@@ -4,17 +4,17 @@
       <div class="content has-text-centered">
         <p v-html="$t('footer')"></p>
         <p>
-          <a target="_blank" href="https://github.com/Yaty">
+          <a target="_blank" aria-label="GitHub" rel="noopener" href="https://github.com/Yaty">
             <span class="icon is-large">
               <i class="fa fa-2x fa-github"></i>
             </span>
           </a>
-          <a target="_blank" href="https://www.linkedin.com/in/hugo-d-71b8a8104/">
+          <a target="_blank" aria-label="LinkedIn" rel="noopener" href="https://www.linkedin.com/in/hugo-d-71b8a8104/">
             <span class="icon is-large">
               <i class="fa fa-2x fa-linkedin"></i>
             </span>
           </a>
-          <a href="mailto:contact@hdaroit.fr">
+          <a rel="noopener" aria-label="contact@hdaroit.fr" href="mailto:contact@hdaroit.fr">
             <span class="icon is-large">
               <i class="fa fa-2x fa-envelope"></i>
             </span>

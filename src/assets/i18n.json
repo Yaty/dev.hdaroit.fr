@@ -34,7 +34,7 @@
       },
       "hdaroit": {
         "title": "hdaroit.fr",
-        "desc": "This website, it's a <a target=\"_blank\" href=\"https://developers.google.com/web/progressive-web-apps/\">Progressive Web App</a> made with <a target=\"_blank\" href=\"https://vuejs.org/\">Vue.js</a> and <a target=\"_blank\" href=\"http://bulma.io/\">Bulma</a>."
+        "desc": "This website, it's a <a target=\"_blank\" rel=\"noopener\" href=\"https://developers.google.com/web/progressive-web-apps/\">Progressive Web App</a> made with <a target=\"_blank\" rel=\"noopener\" href=\"https://vuejs.org/\">Vue.js</a> and <a target=\"_blank\" rel=\"noopener\" href=\"http://bulma.io/\">Bulma</a>."
       },
       "climbing-games": {
         "title": "Interactive Climbing Games",
@@ -81,7 +81,7 @@
       "dut": {
         "title": "Technology degree in IT",
         "duration": "2015 to 2017",
-        "desc": "Shingshang game in C without GUI in C, then with a GUI in Java with JavaFX.<br>Mining exploration game in Java <a href=\"https://github.com/Yaty/explorationminiere\">GitHub</a>.<br>Web application (log, sell and buy stuff online).<br>Multi-user chat in Java.<br>Multi-user drawing application in C.<br>Web application to fully interact with an Oracle database.<br>Java application to simulate a parking (JavaFX GUI)."
+        "desc": "Shingshang game in C without GUI in C, then with a GUI in Java with JavaFX.<br>Mining exploration game in Java <a rel=\"noopener\" href=\"https://github.com/Yaty/explorationminiere\">GitHub</a>.<br>Web application (log, sell and buy stuff online).<br>Multi-user chat in Java.<br>Multi-user drawing application in C.<br>Web application to fully interact with an Oracle database.<br>Java application to simulate a parking (JavaFX GUI)."
       },
       "dumont": {
         "title": "High school diploma in sciences",
@@ -111,7 +111,7 @@
         "placeholder": "Message"
       }
     },
-    "footer": "Made with <span class=\"icon\"><i class=\"fa fa-heart\"></i></span> by <a href=\"mailto:contact@hdaroit.fr\">Hugo Da Roit</a>.<br>The source code is licensed <a target=\"_blank\" href=\"http://opensource.org/licenses/mit-license.php\">MIT</a> and is available <a target=\"_blank\" href=\"https://github.com/Yaty/hdaroit.fr\">here</a>."
+    "footer": "Made with <span class=\"icon\"><i class=\"fa fa-heart\"></i></span> by <a rel=\"noopener\" title=\"mail\" href=\"mailto:contact@hdaroit.fr\">Hugo Da Roit</a>.<br>The source code is licensed <a rel=\"noopener\" title=\"MIT\" target=\"_blank\" href=\"http://opensource.org/licenses/mit-license.php\">MIT</a> and is available <a target=\"_blank\" rel=\"noopener\" title=\"GitHub\" href=\"https://github.com/Yaty/hdaroit.fr\">here</a>."
   },
   "fr": {
     "header": {
@@ -148,7 +148,7 @@
       },
       "hdaroit": {
         "title": "hdaroit.fr",
-        "desc": "Ce site, c'est une <a target=\"_blank\" href=\"https://developers.google.com/web/progressive-web-apps/\">Progressive Web App</a> réalisé avec l'aide de <a target=\"_blank\" href=\"https://vuejs.org/\">Vue.js</a> et <a target=\"_blank\" href=\"http://bulma.io/\">Bulma</a>."
+        "desc": "Ce site, c'est une <a target=\"_blank\" rel=\"noopener\" href=\"https://developers.google.com/web/progressive-web-apps/\">Progressive Web App</a> réalisé avec l'aide de <a rel=\"noopener\" target=\"_blank\" href=\"https://vuejs.org/\">Vue.js</a> et <a target=\"_blank\" rel=\"noopener\" href=\"http://bulma.io/\">Bulma</a>."
       },
       "climbing-games": {
         "title": "Jeux d'escalade",
@@ -225,6 +225,6 @@
         "placeholder": "Message"
       }
     },
-    "footer": "Fait avec <span class=\"icon\"><i class=\"fa fa-heart\"></i></span> par <a href=\"mailto:contact@hdaroit.fr\">Hugo Da Roit</a>.<br>Le code est sous licence <a target=\"_blank\" href=\"http://opensource.org/licenses/mit-license.php\">MIT</a> et est disponible <a target=\"_blank\" href=\"https://github.com/Yaty/hdaroit.fr\">ici</a>."
+    "footer": "Fait avec <span class=\"icon\"><i class=\"fa fa-heart\"></i></span> par <a rel=\"noopener\" title=\"mail\" href=\"mailto:contact@hdaroit.fr\">Hugo Da Roit</a>.<br>Le code est sous licence <a rel=\"noopener\" title=\"MIT\" target=\"_blank\" href=\"http://opensource.org/licenses/mit-license.php\">MIT</a> et est disponible <a rel=\"noopener\" title=\"GitHub\" target=\"_blank\" href=\"https://github.com/Yaty/hdaroit.fr\">ici</a>."
   }
 }

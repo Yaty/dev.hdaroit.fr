@@ -3,9 +3,9 @@
     <h2 class="title">{{ $t('contact.title') }}</h2>
     <form class="box">
       <div class="field">
-        <label class="label">* {{ $t('contact.name.label') }}</label>
+        <label for="name" class="label">* {{ $t('contact.name.label') }}</label>
         <div class="control has-icons-left">
-          <input class="input" type="text" :placeholder="$t('contact.name.placeholder')" v-model="name">
+          <input id="name" class="input" type="text" :placeholder="$t('contact.name.placeholder')" v-model="name">
           <span class="icon is-small is-left">
             <i class="fa fa-user"></i>
           </span>
@@ -13,9 +13,9 @@
       </div>
 
       <div class="field">
-        <label class="label">* {{ $t('contact.email.label') }}</label>
+        <label for="email" class="label">* {{ $t('contact.email.label') }}</label>
         <div class="control has-icons-left">
-          <input :class="{ input: true, 'is-danger': invalidEmail }" type="email" :placeholder="$t('contact.email.placeholder')" v-model="email">
+          <input id="email" :class="{ input: true, 'is-danger': invalidEmail }" type="email" :placeholder="$t('contact.email.placeholder')" v-model="email">
           <span class="icon is-small is-left">
             <i class="fa fa-envelope"></i>
           </span>
@@ -23,16 +23,16 @@
       </div>
 
       <div class="field">
-        <label class="label">* {{ $t('contact.subject.label') }}</label>
+        <label for="subject" class="label">* {{ $t('contact.subject.label') }}</label>
         <div class="control">
-          <input class="input" type="text" :placeholder="$t('contact.subject.placeholder')" v-model="subject">
+          <input id="subject" class="input" type="text" :placeholder="$t('contact.subject.placeholder')" v-model="subject">
         </div>
       </div>
 
       <div class="field">
-        <label class="label">* {{ $t('contact.message.label') }}</label>
+        <label for="message" class="label">* {{ $t('contact.message.label') }}</label>
         <div class="control">
-          <textarea class="textarea" :placeholder="$t('contact.message.placeholder')" v-model="message"></textarea>
+          <textarea id="message" class="textarea" :placeholder="$t('contact.message.placeholder')" v-model="message"></textarea>
         </div>
       </div>
 

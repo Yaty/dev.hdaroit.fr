@@ -1,5 +1,5 @@
 <template>
-  <container>
+  <container id="welcome">
     <h2 class="title">Welcome !</h2>
     <p>
       I'm Hugo, a full-stack developer. I'm currently studying at the ESGI school in apprenticeship with Orange.<br>

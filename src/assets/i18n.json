@@ -4,6 +4,7 @@
       "home": "Home",
       "projects": "Projects",
       "workXp": "Work experiences",
+      "opensource": "Open source contributions",
       "school": "Schooling",
       "contact": "Contact",
       "job": "Full-stack developer",
@@ -56,6 +57,7 @@
         "desc": "Draw with multiple users ! C school project."
       }
     },
+    "opensource": "Open source contributions",
     "working": {
       "title": "Working Experiences",
       "orange-intern": {
@@ -91,6 +93,7 @@
       "title": "Contact",
       "reset": "Reset",
       "submit": "Submit",
+      "mandatory": "mandatory",
       "name": {
         "label": "Name",
         "placeholder": "Your name"
@@ -114,7 +117,8 @@
     "header": {
       "home": "Accueil",
       "projects": "Projets",
-      "workXp": "Expériences de travail",
+      "workXp": "Expériences professionnelles",
+      "opensource": "Contributions Open Source",
       "school": "Scolarité",
       "contact": "Contact",
       "job": "Développeur full-stack",
@@ -167,6 +171,7 @@
         "desc": "Dessinez sur une même fenêtre avec plusieurs personnes ! Projet scolaire en C."
       }
     },
+    "opensource": "Contributions Open Source",
     "working": {
       "title": "Expériences professionnelles",
       "orange-intern": {
@@ -202,6 +207,7 @@
       "title": "Contact",
       "reset": "Réinitialiser",
       "submit": "Envoyer",
+      "mandatory": "obligatoire",
       "name": {
         "label": "Nom",
         "placeholder": "Votre nom"

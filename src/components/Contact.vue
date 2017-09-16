@@ -3,7 +3,7 @@
     <h2 class="title">{{ $t('contact.title') }}</h2>
     <form class="box">
       <div class="field">
-        <label class="label">{{ $t('contact.name.label') }}</label>
+        <label class="label">* {{ $t('contact.name.label') }}</label>
         <div class="control has-icons-left">
           <input class="input" type="text" :placeholder="$t('contact.name.placeholder')" v-model="name">
           <span class="icon is-small is-left">
@@ -13,7 +13,7 @@
       </div>
 
       <div class="field">
-        <label class="label">{{ $t('contact.email.label') }}</label>
+        <label class="label">* {{ $t('contact.email.label') }}</label>
         <div class="control has-icons-left">
           <input :class="{ input: true, 'is-danger': invalidEmail }" type="email" :placeholder="$t('contact.email.placeholder')" v-model="email">
           <span class="icon is-small is-left">
@@ -23,14 +23,14 @@
       </div>
 
       <div class="field">
-        <label class="label">{{ $t('contact.subject.label') }}</label>
+        <label class="label">* {{ $t('contact.subject.label') }}</label>
         <div class="control">
           <input class="input" type="text" :placeholder="$t('contact.subject.placeholder')" v-model="subject">
         </div>
       </div>
 
       <div class="field">
-        <label class="label">{{ $t('contact.message.label') }}</label>
+        <label class="label">* {{ $t('contact.message.label') }}</label>
         <div class="control">
           <textarea class="textarea" :placeholder="$t('contact.message.placeholder')" v-model="message"></textarea>
         </div>
@@ -40,7 +40,7 @@
 
       <div class="field is-grouped is-grouped-centered">
         <div class="control">
-          <a :class="{ button: true, 'is-primary': true, 'is-loading': contacting }" @click="send">
+          <a :class="{ button: true, 'is-primary': true, 'is-loading': contacting }" :disabled="isSubmitDisabled" @click="send">
             <span class="icon is-small" v-if="contactingSuccess">
               <i class="fa fa-check"></i>
             </span>
@@ -52,6 +52,12 @@
         </div>
         <div class="control">
           <a class="button is-info" @click="reset">{{ $t('contact.reset') }}</a>
+        </div>
+      </div>
+      <div class="level">
+        <div class="level-left"></div>
+        <div class="level-right">
+          <p class="level-item heading">* {{ $t('contact.mandatory') }}</p>
         </div>
       </div>
     </form>
@@ -74,6 +80,17 @@
         contacting: null,
         contactingSuccess: null,
         invalidEmail: null
+      }
+    },
+    computed: {
+      isSubmitDisabled () {
+        const isEmailValid = Boolean(this.invalidEmail === false && this.email && this.email.length > 0)
+        const isNameValid = Boolean(this.name && this.name.length > 0)
+        const isSubjectValid = Boolean(this.subject && this.subject.length > 0)
+        const isMsgValid = Boolean(this.message && this.message.length > 0)
+        const isGotchaValid = Boolean(this.gotcha === null)
+        const res = Boolean(isEmailValid && isNameValid && isSubjectValid && isSubjectValid && isMsgValid && isGotchaValid)
+        return res === false
       }
     },
     watch: {

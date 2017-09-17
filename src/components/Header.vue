@@ -58,7 +58,7 @@
       <div class="container has-text-centered">
         <div class="columns is-multiline">
           <div class="column is-full">
-            <img id="logo" alt="Logo" src="../assets/photo.jpg" width="200">
+            <img id="logo" alt="Logo" width="200" v-lazy="logoURL">
           </div>
           <div class="column is-full">
             <h1 class="title is-2">Hugo Da Roit</h1>
@@ -117,7 +117,8 @@
     data () {
       return {
         language: this.$i18n.locale,
-        languages: ['EN', 'FR']
+        languages: ['EN', 'FR'],
+        logoURL: '/static/img/photo.jpg'
       }
     },
     watch: {

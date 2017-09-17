@@ -60,6 +60,11 @@
     "opensource": "Open source contributions",
     "working": {
       "title": "Working Experiences",
+      "orange-apprenticeship": {
+        "title": "Apprenticeship",
+        "duration": "September 2017 to today",
+        "desc": "I'm making APIs for Orange Business Services' projects."
+      },
       "orange-intern": {
         "title": "Intern in web development",
         "duration": "March 2017 to June 2017",
@@ -174,6 +179,11 @@
     "opensource": "Contributions Open Source",
     "working": {
       "title": "Expériences professionnelles",
+      "orange-apprenticeship": {
+        "title": "Apprenti",
+        "duration": "Septembre 2017 à aujourd'hui",
+        "desc": "Création d'APIs pour des projets d'Orange Business Services."
+      },
       "orange-intern": {
         "title": "Stagiaire en développement web",
         "duration": "Mars 2017 à Juin 2017",

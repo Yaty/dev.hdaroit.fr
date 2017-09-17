@@ -1,6 +1,17 @@
 <template>
   <container id="workingXp">
     <h2 class="title">{{ $t('working.title') }}</h2>
+
+    <media
+      logo="/static/img/orange.svg"
+      :title="$t('working.orange-apprenticeship.title')"
+      subtitle="Orange Business Services"
+      :duration="$t('working.orange-apprenticeship.duration')"
+      location="Caen, France"
+    >
+      <span v-html="$t('working.orange-apprenticeship.desc')"></span>
+    </media>
+
     <media
       logo="/static/img/orange.svg"
       :title="$t('working.orange-intern.title')"

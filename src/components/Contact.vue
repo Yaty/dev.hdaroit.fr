@@ -40,7 +40,7 @@
 
       <div class="field is-grouped is-grouped-centered">
         <div class="control">
-          <a :class="{ button: true, 'is-primary': true, 'is-loading': contacting }" :disabled="isSubmitDisabled" @click="send">
+          <a :class="{ button: true, 'is-info': true, 'is-loading': contacting, 'is-static': isSubmitDisabled }" @click="send">
             <span class="icon is-small" v-if="contactingSuccess">
               <i class="fa fa-check"></i>
             </span>
@@ -51,7 +51,7 @@
           </a>
         </div>
         <div class="control">
-          <a class="button is-info" @click="reset">{{ $t('contact.reset') }}</a>
+          <a class="button is-primary" @click="reset">{{ $t('contact.reset') }}</a>
         </div>
       </div>
       <div class="level">

@@ -1,11 +1,9 @@
 <template>
   <main class="hero is-fullheight" id="header">
     <div class="hero-head">
-      <div class="navbar">
+      <div class="navbar is-light">
         <div class="navbar-brand">
-          <div class="navbar-item">
-            <a rel="noopener" href="#" v-scroll-to="'#header'">{{ $t('header.home') }}</a>
-          </div>
+          <a rel="noopener" href="#" class="navbar-item" v-scroll-to="'#header'">{{ $t('header.home') }}</a>
 
           <a class="navbar-item is-hidden-desktop" rel="noopener" aria-label="GitHub" href="https://github.com/Yaty" target="_blank">
             <span class="icon">
@@ -76,11 +74,11 @@
             </span>
                 <span>GitHub</span>
               </a>
-              <a href="#" v-scroll-to="'#contact'" class="button is-medium is-primary">
+              <a href="#" v-scroll-to="'#contact'" class="button is-primary is-medium">
                 <span>{{ $t('header.contact') }}</span>
                 <span class="icon">
-              <i class="fa fa-envelope"></i>
-            </span>
+                  <i class="fa fa-envelope"></i>
+                </span>
               </a>
             </div>
           </div>

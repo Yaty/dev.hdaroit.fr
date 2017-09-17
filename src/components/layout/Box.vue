@@ -15,7 +15,7 @@ Based on Vue-admin from Fangdun Cai <cfddream@gmail.com>
             <h3 class="title level-item">{{ name }}</h3>
           </div>
           <div class="level-right">
-            <a target="_blank" :href="link" class="button is-info level-item">
+            <a target="_blank" rel="noopener" :aria-label="name" :href="link" class="button is-info level-item">
               <span class="is-hidden-mobile">GitHub</span>
               <span class="icon">
                 <i class="fa fa-github"></i>

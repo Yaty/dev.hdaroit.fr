@@ -1,6 +1,7 @@
 <template>
   <container id="school">
     <h2 class="title">{{ $t('school.title') }}</h2>
+
     <media
       logo="/static/img/esgi.png"
       :title="$t('school.esgi.title')"

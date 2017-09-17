@@ -1,13 +1,11 @@
 <template>
   <main class="hero is-fullheight" id="header">
     <div class="hero-head">
-      <div class="navbar">
+      <div class="navbar is-light">
         <div class="navbar-brand">
-          <div class="navbar-item">
-            <a href="#" v-scroll-to="'#header'">{{ $t('header.home') }}</a>
-          </div>
+          <a rel="noopener" href="#" class="navbar-item" v-scroll-to="'#header'">{{ $t('header.home') }}</a>
 
-          <a class="navbar-item is-hidden-desktop" href="https://github.com/Yaty" target="_blank">
+          <a class="navbar-item is-hidden-desktop" rel="noopener" aria-label="GitHub" href="https://github.com/Yaty" target="_blank">
             <span class="icon">
               <i class="fa fa-lg fa-github"></i>
             </span>
@@ -60,7 +58,7 @@
       <div class="container has-text-centered">
         <div class="columns is-multiline">
           <div class="column is-full">
-            <img id="logo"  src="../assets/photo.jpg" width="200">
+            <img id="logo" alt="Logo" width="200" v-lazy="logoURL">
           </div>
           <div class="column is-full">
             <h1 class="title is-2">Hugo Da Roit</h1>
@@ -70,17 +68,17 @@
           </div>
           <div class="column is-full">
             <div class="hero-buttons">
-              <a target="_blank" href="https://github.com/Yaty" class="button is-medium is-info">
+              <a target="_blank" rel="noopener" aria-label="GitHub" href="https://github.com/Yaty" class="button is-medium is-info">
             <span class="icon">
               <i class="fa fa-github"></i>
             </span>
                 <span>GitHub</span>
               </a>
-              <a href="#" v-scroll-to="'#contact'" class="button is-medium is-primary">
+              <a href="#" v-scroll-to="'#contact'" class="button is-primary is-medium">
                 <span>{{ $t('header.contact') }}</span>
                 <span class="icon">
-              <i class="fa fa-envelope"></i>
-            </span>
+                  <i class="fa fa-envelope"></i>
+                </span>
               </a>
             </div>
           </div>
@@ -97,7 +95,7 @@
             </div>
           </div>
           <div class="level-item is-hidden-mobile">
-            <a class="icon is-medium" href="#" v-scroll-to="'#welcome'" id="welcomeButton">
+            <a class="icon is-medium" aria-label="Go to Welcome" href="#" v-scroll-to="'#welcome'" id="welcomeButton">
               <i class="fa fa-2x fa-blink fa-arrow-down"></i>
             </a>
           </div>
@@ -119,7 +117,8 @@
     data () {
       return {
         language: this.$i18n.locale,
-        languages: ['EN', 'FR']
+        languages: ['EN', 'FR'],
+        logoURL: '/static/img/photo.jpg'
       }
     },
     watch: {

@@ -1,26 +1,19 @@
 <template>
   <container id="opensource">
     <h2 class="title">{{ $t('opensource') }}</h2>
-    <div class="columns is-centered">
-      <div class="column is-narrow">
-        <a class="image is-128x128" aria-label="Buefy" rel="noopener" href="https://github.com/rafaelpimpa/buefy" target="_blank">
-          <img aria-label="Buefy" v-lazy="buefy"/>
-        </a>
-      </div>
+    <div class="columns is-centered is-8 is-variable">
+      <image-column label="Buefy" link="https://github.com/rafaelpimpa/buefy" img="/static/img/buefy.png"></image-column>
+      <image-column label="Vue" link="https://github.com/vuejs/vue" img="/static/img/vue.svg"></image-column>
     </div>
   </container>
 </template>
 
 <script>
   import Container from './layout/Container.vue'
+  import ImageColumn from './layout/ImageColumn.vue'
 
   export default {
     name: 'opensource',
-    components: { Container },
-    data () {
-      return {
-        buefy: '/static/img/buefy.png'
-      }
-    }
+    components: { Container, ImageColumn }
   }
 </script>

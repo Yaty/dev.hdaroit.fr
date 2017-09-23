@@ -18,6 +18,7 @@
     display: block;
     width: 128px;
     height: 128px;
+    margin: auto;
   }
 
   img {

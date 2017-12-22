@@ -2,6 +2,7 @@
   <container id="projects">
     <h2 class="title">{{ $t('projects.title') }}</h2>
     <div class="columns is-multiline">
+      <box :name="$t('projects.yamldb.title')" link="https://github.com/Yaty/yamldb">{{ $t('projects.yamldb.desc') }}</box>
       <box :name="$t('projects.vue-spotify.title')" link="https://github.com/Yaty/vue-spotify">{{ $t('projects.vue-spotify.desc') }}</box>
       <box :name="$t('projects.mining.title')" link="https://github.com/Yaty/explorationminiere">{{ $t('projects.mining.desc') }}</box>
       <box :name="$t('projects.yaty.title')" link="https://github.com/Yaty/yaty">{{ $t('projects.yaty.desc') }}</box>

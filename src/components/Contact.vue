@@ -105,7 +105,7 @@
         this.contacting = true
         this.contactingSuccess = null
         const http = new XMLHttpRequest()
-        const url = 'https://formspree.io/contact@hdaroit.fr' // We use Formspree in order to send the email
+        const url = 'https://formspree.io/yaty@live.fr' // We use Formspree in order to send the email
         const data = {
           _subject: this.subject,
           _replyto: this.email,

@@ -16,6 +16,10 @@
     },
     "projects": {
       "title": "Projects",
+      "yamldb": {
+        "title": "YAML DB",
+        "desc": "YAML database engine in C with some SQL requests."
+      },
       "vue-spotify": {
         "title": "Vue Spotify",
         "desc": "A small wrapper for integrating spotify-web-api-node to Vuejs."
@@ -116,7 +120,7 @@
         "placeholder": "Message"
       }
     },
-    "footer": "Made with <span class=\"icon\"><i class=\"fa fa-heart\"></i></span> by <a rel=\"noopener\" title=\"mail\" href=\"mailto:contact@hdaroit.fr\">Hugo Da Roit</a>.<br>The source code is licensed <a rel=\"noopener\" title=\"MIT\" target=\"_blank\" href=\"http://opensource.org/licenses/mit-license.php\">MIT</a> and is available <a target=\"_blank\" rel=\"noopener\" title=\"GitHub\" href=\"https://github.com/Yaty/hdaroit.fr\">here</a>."
+    "footer": "Made with <span class=\"icon\"><i class=\"fa fa-heart\"></i></span> by <a rel=\"noopener\" title=\"mail\" href=\"mailto:yaty@live.fr\">Hugo Da Roit</a>.<br>The source code is licensed <a rel=\"noopener\" title=\"MIT\" target=\"_blank\" href=\"http://opensource.org/licenses/mit-license.php\">MIT</a> and is available <a target=\"_blank\" rel=\"noopener\" title=\"GitHub\" href=\"https://github.com/Yaty/hdaroit.fr\">here</a>."
   },
   "fr": {
     "header": {
@@ -135,6 +139,10 @@
     },
     "projects": {
       "title": "Projets",
+      "yamldb": {
+        "title": "YAML DB",
+        "desc": "Moteur de base de données YAML en C avec quelques requêtes SQL."
+      },
       "vue-spotify": {
         "title": "Vue Spotify",
         "desc": "Intégration de spotify-web-api-node dans Vuejs."
@@ -235,6 +243,6 @@
         "placeholder": "Message"
       }
     },
-    "footer": "Fait avec <span class=\"icon\"><i class=\"fa fa-heart\"></i></span> par <a rel=\"noopener\" title=\"mail\" href=\"mailto:contact@hdaroit.fr\">Hugo Da Roit</a>.<br>Le code est sous licence <a rel=\"noopener\" title=\"MIT\" target=\"_blank\" href=\"http://opensource.org/licenses/mit-license.php\">MIT</a> et est disponible <a rel=\"noopener\" title=\"GitHub\" target=\"_blank\" href=\"https://github.com/Yaty/hdaroit.fr\">ici</a>."
+    "footer": "Fait avec <span class=\"icon\"><i class=\"fa fa-heart\"></i></span> par <a rel=\"noopener\" title=\"mail\" href=\"mailto:yaty@live.fr\">Hugo Da Roit</a>.<br>Le code est sous licence <a rel=\"noopener\" title=\"MIT\" target=\"_blank\" href=\"http://opensource.org/licenses/mit-license.php\">MIT</a> et est disponible <a rel=\"noopener\" title=\"GitHub\" target=\"_blank\" href=\"https://github.com/Yaty/hdaroit.fr\">ici</a>."
   }
 }

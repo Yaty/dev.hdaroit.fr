@@ -101,7 +101,7 @@
           </div>
           <div class="level-item has-text-centered">
             <div>
-              <p class="title">2</p>
+              <p class="title">3</p>
               <p class="heading">{{ $t('header.yearsXp') }}</p>
             </div>
           </div>

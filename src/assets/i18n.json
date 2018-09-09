@@ -67,7 +67,7 @@
       "orange-apprenticeship": {
         "title": "Apprenticeship",
         "duration": "September 2017 to today",
-        "desc": "I'm making APIs for Orange Business Services' projects."
+        "desc": "I'm working on several anticipation Orange Business Services' projects."
       },
       "orange-intern": {
         "title": "Intern in web development",
@@ -82,9 +82,14 @@
     },
     "school": {
       "title": "Schooling",
+      "esgi2": {
+        "title": "Master's degree, IT engineering (current)",
+        "duration": "2018 to 2020",
+        "desc": "Specialized in software architecture."
+      },
       "esgi": {
-        "title": "Bachelor's degree, IT engineering (currently)",
-        "duration": "2017 to today",
+        "title": "Bachelor's degree, IT engineering - Valedictorian",
+        "duration": "2017 to 2018",
         "desc": "Specialized in software architecture."
       },
       "dut": {
@@ -190,7 +195,7 @@
       "orange-apprenticeship": {
         "title": "Apprenti",
         "duration": "Septembre 2017 à aujourd'hui",
-        "desc": "Création d'APIs pour des projets d'Orange Business Services."
+        "desc": "Je travaille pour des projets d'anticipation d'Orange Business Services."
       },
       "orange-intern": {
         "title": "Stagiaire en développement web",
@@ -205,9 +210,14 @@
     },
     "school": {
       "title": "Scolarité",
+      "esgi2": {
+        "title": "Mastère, architecture des logiciels (actuellement)",
+        "duration": "2018 à 2020",
+        "desc": "Cycle mastère spécialité architecture des logiciels."
+      },
       "esgi": {
-        "title": "Bachelor, Ingénierie Informatique (actuellement)",
-        "duration": "2017 à aujourd'hui",
+        "title": "Bachelor, architecture des logiciels - Major de promo",
+        "duration": "2017 à 2018'hui",
         "desc": "Cycle bachelor spécialité architecture des logiciels."
       },
       "dut": {

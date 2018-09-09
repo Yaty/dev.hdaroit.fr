@@ -4,6 +4,16 @@
 
     <media
       logo="/static/img/esgi.png"
+      :title="$t('school.esgi2.title')"
+      subtitle="ESGI"
+      :duration="$t('school.esgi2.duration')"
+      location="Paris, France"
+    >
+      {{ $t('school.esgi2.desc') }}
+    </media>
+
+    <media
+      logo="/static/img/esgi.png"
       :title="$t('school.esgi.title')"
       subtitle="ESGI"
       :duration="$t('school.esgi.duration')"

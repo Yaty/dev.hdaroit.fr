@@ -3,7 +3,7 @@
     <h2 class="title">{{ $t('school.title') }}</h2>
 
     <media
-      logo="/static/img/esgi.png"
+      logo="/img/esgi.png"
       :title="$t('school.esgi2.title')"
       subtitle="ESGI"
       :duration="$t('school.esgi2.duration')"
@@ -13,7 +13,7 @@
     </media>
 
     <media
-      logo="/static/img/esgi.png"
+      logo="/img/esgi.png"
       :title="$t('school.esgi.title')"
       subtitle="ESGI"
       :duration="$t('school.esgi.duration')"
@@ -23,7 +23,7 @@
     </media>
 
     <media
-      logo="/static/img/iutcaen.png"
+      logo="/img/iutcaen.png"
       :title="$t('school.dut.title')"
       subtitle="IUT Caen"
       :duration="$t('school.dut.duration')"
@@ -33,7 +33,7 @@
     </media>
 
     <media
-      logo="/static/img/dumont.svg"
+      logo="/img/dumont.svg"
       :title="$t('school.dumont.title')"
       subtitle="Lycée Jules Dumont d'Urville"
       :duration="$t('school.dumont.duration')"

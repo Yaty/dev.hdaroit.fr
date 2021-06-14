@@ -1,9 +1,9 @@
 <template>
-  <main class="hero is-fullheight" id="header">
+  <main class="hero is-fullheight" id="header-id">
     <div class="hero-head">
       <div class="navbar is-light">
         <div class="navbar-brand">
-          <a rel="noopener" href="#" class="navbar-item" v-scroll-to="'#header'">{{ $t('header.home') }}</a>
+          <a rel="noopener" href="#" class="navbar-item" v-scroll-to="'#header-id'">{{ $t('header.home') }}</a>
 
           <a class="navbar-item is-hidden-desktop" rel="noopener" aria-label="GitHub" href="https://github.com/Yaty" target="_blank">
             <span class="icon">
@@ -15,7 +15,7 @@
             <div class="control has-icons-left">
               <div class="select is-small">
                 <select title="Language Selector" v-model="language">
-                  <option v-for="lang in languages" :value="lang.toLowerCase()">{{ lang }}</option>
+                  <option v-for="lang in languages" :value="lang.toLowerCase()" :key="lang">{{ lang }}</option>
                 </select>
               </div>
               <div class="icon is-small is-left">
@@ -42,7 +42,7 @@
               <div class="control has-icons-left">
                 <div class="select is-small">
                   <select title="Language Selector" v-model="language">
-                    <option v-for="lang in languages" :value="lang.toLowerCase()">{{ lang }}</option>
+                    <option v-for="lang in languages" :value="lang.toLowerCase()" :key="lang">{{ lang }}</option>
                   </select>
                 </div>
                 <div class="icon is-small is-left">
@@ -70,15 +70,27 @@
             <div class="hero-buttons">
               <a target="_blank" rel="noopener" aria-label="GitHub" href="https://github.com/Yaty" class="button is-medium is-info">
             <span class="icon">
-              <i class="fa fa-github"></i>
+              <i class="fab fa-github"></i>
             </span>
                 <span>GitHub</span>
               </a>
+              <a rel="noopener" aria-label="Climbing" href="https://escalade.hdaroit.fr" class="button is-success is-medium">
+                <span class="icon">
+                  <i class="fas fa-mountain"></i>
+                </span>
+                <span>{{ $t('header.climbing') }}</span>
+              </a>
+              <a rel="noopener" aria-label="Photography" href="https://photographie.hdaroit.fr" class="button is-warning is-medium">
+                <span class="icon">
+                  <i class="fa fa-camera"></i>
+                </span>
+                <span>{{ $t('header.photography') }}</span>
+              </a>
               <a href="#" v-scroll-to="'#contact'" class="button is-primary is-medium">
-                <span>{{ $t('header.contact') }}</span>
                 <span class="icon">
                   <i class="fa fa-envelope"></i>
                 </span>
+                <span>{{ $t('header.contact') }}</span>
               </a>
             </div>
           </div>
@@ -101,7 +113,7 @@
           </div>
           <div class="level-item has-text-centered">
             <div>
-              <p class="title">3</p>
+              <p class="title">4</p>
               <p class="heading">{{ $t('header.yearsXp') }}</p>
             </div>
           </div>
@@ -113,12 +125,12 @@
 
 <script>
   export default {
-    name: 'header',
+    name: 'headerComponent',
     data () {
       return {
         language: this.$i18n.locale,
         languages: ['EN', 'FR'],
-        logoURL: '/static/img/photo.jpg'
+        logoURL: './img/photo.jpg'
       }
     },
     watch: {
@@ -174,6 +186,7 @@
     z-index: 1000;
     width: 100%;
     border-bottom: thin solid gainsboro;
+    background-color: white;
   }
 
   .hero-body {

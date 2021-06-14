@@ -7,18 +7,28 @@
       "opensource": "Open source contributions",
       "school": "Schooling",
       "contact": "Contact",
-      "job": "Full-stack developer",
-      "yearsXp": "years XP"
+      "job": "Freelance backend developer",
+      "yearsXp": "years XP",
+      "climbing": "Climbing instructor",
+      "photography": "Photographer"
     },
     "welcome": {
-      "message": "I'm Hugo, a full-stack developer. I'm studying at the ESGI school in apprenticeship with Orange.<br>I'm currently loving the Javascript world mostly thanks to Vue.js and Node.js.<br>I used to code a lot with Java, C and Python for school and personal projects.<br>Have a look to my projects below :)",
+      "message": "Hello, I'm Hugo, a backend developer. I work as a freelance and I mostly code with Node.js and TypeScript.<br><br>I worked on several telecommunications projects for Orange.<br><br>My field of expertise includes :<br>- backend development : Node.js and TypeScript or Javascript, testing (unit, integration, e2e, perf, ...)<br>- API exposure with HTTP protocol mainly: REST, GraphQL<br>- architecture: microservices, clean, hexagonal, communication between services (AMQP, HTTP, ...)<br>- the cloud: Kubernetes, Openshift, Docker, monitoring solutions (Prometheus, Grafana), autoscaling<br>- DevOps: release automation, CI/CD (GitHub or GitLab), monitoring<br>- front-end development : Vue.js<br><br>I like when the code is well done, simple, tested, elegant and that it brings a real added value to the final product for the end user!<br><br>I'm serious and I like to work in a team. I contribute on open source projects when I have time.<br><br>I'm also a climbing instructor in Normandy. I wish to promote the values of my sport through my different jobs: sharing, commitment, respect, self-confidence and trust in others, having fun, managing failure and success, perseverance and many others!",
       "title": "Welcome !"
     },
     "projects": {
       "title": "Projects",
+      "paffme": {
+        "title": "Climbing competition manager",
+        "desc": "I built a complete climbing competition web application for my final project in school. I was charged of building the backend. I used Node.js, Typescript and PostgreSQL. This application handles everything needed for a climbing competition : from registrations to publishing the results. It handles every kind of competition based on the rules of the french climbing federation. It also have an AI to automatically recognize climbing holds on pictures from the climbing competition staff to map a climbing route for instance. This is my biggest non-working related project to date."
+      },
+      "workestrator": {
+        "title": "Workestrator : distribute tasks to child processes",
+        "desc": "Workestrator is a library to distribute tasks to child processes. It is written in TypeScript. It has some nice features : concurrency options, durability and resilience, async/await support out of the box, events, custom serializers, broadcasting."
+      },
       "yamldb": {
         "title": "YAML DB",
-        "desc": "YAML database engine in C with some SQL requests."
+        "desc": "YAML database engine in C with some SQL requests (joins, conditions, ordering, ...)."
       },
       "vue-spotify": {
         "title": "Vue Spotify",
@@ -38,36 +48,39 @@
       },
       "hdaroit": {
         "title": "hdaroit.fr",
-        "desc": "This website, it's a <a target=\"_blank\" rel=\"noopener\" href=\"https://developers.google.com/web/progressive-web-apps/\">Progressive Web App</a> made with <a target=\"_blank\" rel=\"noopener\" href=\"https://vuejs.org/\">Vue.js</a> and <a target=\"_blank\" rel=\"noopener\" href=\"http://bulma.io/\">Bulma</a>."
-      },
-      "climbing-games": {
-        "title": "Interactive Climbing Games",
-        "desc": "Augmented reality games for climbing with Kinect."
-      },
-      "climbing-ranking": {
-        "title": "Climbing Competition Ranking",
-        "desc": "Create a ranking for your climbing events, it supports discipline like speed, bouldering or lead and also the combined. The GUI needs to be created."
-      },
-      "tdf": {
-        "title": "Tour de France",
-        "desc": "School project to interact with an Oracle database about the Tour de France."
-      },
-      "chat": {
-        "title": "Chat",
-        "desc": "School project. Simple java threaded chat with commands."
-      },
-      "paint": {
-        "title": "Multi-user paint app",
-        "desc": "Draw with multiple users ! C school project."
+        "desc": "This website is made with <a target=\"_blank\" rel=\"noopener\" href=\"https://vuejs.org/\">Vue.js</a> and <a target=\"_blank\" rel=\"noopener\" href=\"http://bulma.io/\">Bulma</a>."
       }
     },
     "opensource": "Open source contributions",
     "working": {
       "title": "Working Experiences",
+      "freelance": {
+        "title": "Freelance backend developer",
+        "duration": "August 2020 to now",
+        "desc": "I'm currently a freelance backend developer, I mostly work with Node.js, TypeScript and JavaScript.",
+        "location": "Remotely or at Caen, France"
+      },
+      "climbing": {
+        "title": "Climbing instructor",
+        "duration": "November 2021 to now",
+        "desc": "I'm a climbing instructor. I do courses in France, climbing rock trips, training for the federations and coaching climbers from beginners to experts.",
+        "location": "Normandy, France"
+      },
+      "photo": {
+        "title": "Photographer",
+        "duration": "November 2021 to now",
+        "desc": "I mainly shoot climbing outdoors and during competitions.",
+        "location": "France"
+      },
+      "ffme": {
+        "title": "Development officer - Climbing instructor",
+        "duration": "Septembre 2020 to November 2021",
+        "desc": "During Covid I followed a 'DEJEPS Escalade en milieux naturels' in apprenticeship to be able to work as a climbing instructor.<br>I was working for an association (FFME regional authority), I developed outdoor climbing, high level sport in the region, competition climbing, federal trainings and the development of the association on the territory."
+      },
       "orange-apprenticeship": {
-        "title": "Apprenticeship",
-        "duration": "September 2017 to today",
-        "desc": "I'm working on several anticipation Orange Business Services' projects."
+        "title": "Backend developer",
+        "duration": "September 2017 to August 2020",
+        "desc": "I worked for Orange Business Services for 3 years for my apprenticeship. I was able to build in a team a project from its prototype to its commercialization. This project is a communication platform (CPaaS) to allow external developers to use the different communication channels (voice, SMS, e-mail, WebRTC, ...) of the company through a HTTP API. It was a very enriching experience, I was able to work on all aspects of the project: design, development of the backend (microservices architecture, rabbitmq, clean and hexagonal architecture), frontend (Vue.js), testing, CI/CD, monitoring, billing, ..."
       },
       "orange-intern": {
         "title": "Intern in web development",
@@ -85,7 +98,7 @@
       "esgi2": {
         "title": "Master's degree, IT engineering (current)",
         "duration": "2018 to 2020",
-        "desc": "Specialized in software architecture."
+        "desc": "Specialized in software architecture. I realized in team for my final project of study a web application to manage climbing competitions with innovative functionalities: registrations, management of the various users, handling all constraints from the business, IA to recognize climbing holds, management of the results according to the type of competitions, management of the turns, etc... "
       },
       "esgi": {
         "title": "Bachelor's degree, IT engineering - Valedictorian",
@@ -105,27 +118,9 @@
     },
     "contact": {
       "title": "Contact",
-      "reset": "Reset",
-      "submit": "Submit",
-      "mandatory": "mandatory",
-      "name": {
-        "label": "Name",
-        "placeholder": "Your name"
-      },
-      "email": {
-        "label": "Email",
-        "placeholder": "Your email"
-      },
-      "subject": {
-        "label": "Subject",
-        "placeholder": "Subject"
-      },
-      "message": {
-        "label": "Message",
-        "placeholder": "Message"
-      }
+      "text": "If you want to get in touch with me, send me an email at"
     },
-    "footer": "Made with <span class=\"icon\"><i class=\"fa fa-heart\"></i></span> by <a rel=\"noopener\" title=\"mail\" href=\"mailto:yaty@live.fr\">Hugo Da Roit</a>.<br>The source code is licensed <a rel=\"noopener\" title=\"MIT\" target=\"_blank\" href=\"http://opensource.org/licenses/mit-license.php\">MIT</a> and is available <a target=\"_blank\" rel=\"noopener\" title=\"GitHub\" href=\"https://github.com/Yaty/hdaroit.fr\">here</a>."
+    "footer": "Made with <span class=\"icon\"><i class=\"fa fa-heart\"></i></span> by <a rel=\"noopener\" title=\"mail\" href=\"mailto:contact@hdaroit.fr\">Hugo Da Roit</a>.<br>The source code is licensed <a rel=\"noopener\" title=\"MIT\" target=\"_blank\" href=\"http://opensource.org/licenses/mit-license.php\">MIT</a> and is available <a target=\"_blank\" rel=\"noopener\" title=\"GitHub\" href=\"https://github.com/Yaty/hdaroit.fr\">here</a>."
   },
   "fr": {
     "header": {
@@ -135,15 +130,25 @@
       "opensource": "Contributions Open Source",
       "school": "Scolarité",
       "contact": "Contact",
-      "job": "Développeur full-stack",
-      "yearsXp": "années d'XP"
+      "job": "Développeur backend freelance",
+      "yearsXp": "années d'XP",
+      "climbing": "Moniteur d'escalade",
+      "photography": "Photographe"
     },
     "welcome": {
-      "message": "Je suis Hugo, développeur full-stack. J'étudie à l'ESGI en apprentissage chez Orange.<br>Je suis actuellement fan de l'univers Javascript, nottament grâce à Vue.js et Node.js.<br>J'ai beaucoup codé avec Java, C et Python pour des projets personnels et scolaires.<br>Jetez un coup d'œil à mes projets ci-dessous :)",
+      "message": "Bonjour, je m'appelle Hugo et je suis développeur backend. Je suis freelance et je code principalement avec Node.js et TypeScript ou JavaScript.<br><br>J'ai déjà réalisé plusieurs projets de télécommunication pour Orange et ses clients finaux.<br><br>Mon champ de compétences comprend :<br>- le développement backend : Node.js en TypeScript ou en Javascript, tests (unitaires, d'intégrations, e2e, perf, ...)<br>- l'exposition d'API avec le protocole HTTP principalement : REST, GraphQL<br>- l'architecture : microservices, clean, hexagonal, communication entre les services (AMQP, HTTP, ...)<br>- le cloud : Kubernetes, Openshift, Docker, solutions de monitoring (Prometheus, Grafana), autoscaling<br>- le DevOps : automatisation des releases, CI/CD (GitHub ou GitLab), monitoring<br>- le développement front : Vue.js<br><br>J'aime que le code soit bien fait, simple, testé, élégant et que celui-ci apporte une vraie plus-value au produit pour l'utilisateur final !<br><br>Je suis sérieux et j'aime travailler en équipe. Contributeur sur des projets open source quand j'ai du temps.<br><br>Je suis aussi moniteur d'escalade indépendant en Normandie en parallèle de mon métier de développeur. Je souhaite promouvoir les valeurs de mon sport à travers mes différentes professions : le partage, l'engagement, le respect, la confiance en soi et dans l'autre, le plaisir, la gestion de l'échec et de la réussite, la persévérance et tant d'autres !",
       "title": "Bienvenue !"
     },
     "projects": {
       "title": "Projets",
+      "paffme": {
+        "title": "Gestion de compétitons d'escalade",
+        "desc": "J'ai développé une application web permettant la gestion de compétitions d'escalade. J'étais chargé du développement du backend. J'ai utilisé Node.js, Typescript et PostgreSQL. Cette application gère tous les éléments d'une compétition : des inscriptions à la publication des résultats. Elle gère tous les types de compétitions selon les règles de la fédération française d'escalade. Elle contient aussi une IA afin de reconnaitre automatiquement les prises d'escalade sur une photo prise par un membre de l'organisation d'une compétition. C'est le plus gros projet non professionnel que j'ai eu à réalisé."
+      },
+      "workestrator": {
+        "title": "Workestrator : distributeur de tâches",
+        "desc": "Workestrator est une librairie qui permet de distribuer des tâches à des processus enfants. Elle est écrit en Typescript. Celle-ci possède des fonctionnalités sympas : concurrence, durabilité et résilience, API gérant async/await de base, évènements, sérialiseurs custom, broadcasting."
+      },
       "yamldb": {
         "title": "YAML DB",
         "desc": "Moteur de base de données YAML en C avec quelques requêtes SQL."
@@ -166,41 +171,44 @@
       },
       "hdaroit": {
         "title": "hdaroit.fr",
-        "desc": "Ce site, c'est une <a target=\"_blank\" rel=\"noopener\" href=\"https://developers.google.com/web/progressive-web-apps/\">Progressive Web App</a> réalisé avec l'aide de <a rel=\"noopener\" target=\"_blank\" href=\"https://vuejs.org/\">Vue.js</a> et <a target=\"_blank\" rel=\"noopener\" href=\"http://bulma.io/\">Bulma</a>."
-      },
-      "climbing-games": {
-        "title": "Jeux d'escalade",
-        "desc": "Jeux en réalité augmentée via la Kinect."
-      },
-      "climbing-ranking": {
-        "title": "Gestion de compétitions d'escalade",
-        "desc": "Créez un classement pour vos compétitions d'escalade, le logiciel gère les disciplines de la vitesse, du bloc, de la difficulté et du combiné. L'interface graphique n'est pas encore existante."
-      },
-      "tdf": {
-        "title": "Tour de France",
-        "desc": "Projet scolaire afin d'intéragir avec une base de données Oracle à propos du Tour de France."
-      },
-      "chat": {
-        "title": "Chat",
-        "desc": "Projet scolaire. Simple chat multi-utilisateurs avec commandes fonctionnant avec les Threads."
-      },
-      "paint": {
-        "title": "Paint multi-utilisateur",
-        "desc": "Dessinez sur une même fenêtre avec plusieurs personnes ! Projet scolaire en C."
+        "desc": "Ce site est réalisé avec l'aide de <a rel=\"noopener\" target=\"_blank\" href=\"https://vuejs.org/\">Vue.js</a> et <a target=\"_blank\" rel=\"noopener\" href=\"http://bulma.io/\">Bulma</a>."
       }
     },
     "opensource": "Contributions Open Source",
     "working": {
       "title": "Expériences professionnelles",
+      "freelance": {
+        "title": "Développeur backend freelance",
+        "duration": "Août 2020 à aujourd'hui",
+        "desc": "Je suis actuellement développeur backend freelance. Je travaille principalement avec Node.js, TypeScript et JavaScript.",
+        "location": "En distanciel ou à Caen, France"
+      },
+      "climbing": {
+        "title": "Moniteur d'escalade",
+        "duration": "Novembre 2021 à aujourd'hui",
+        "desc": "Je suis moniteur d'escalade indépendant. Je réalise des stages en France, j'encadre des stages à l'étranger, j'entraîne des publics débutants jusqu'aux experts.",
+        "location": "Normandy, France"
+      },
+      "photo": {
+        "title": "Photographe",
+        "duration": "Novembre 2021 à aujourd'hui",
+        "desc": "Je shoot principalement de l'escalade en extérieur ou durant des compétitions.",
+        "location": "France"
+      },
+      "ffme": {
+        "title": "Agent de développement et moniteur d'escalade",
+        "duration": "Septembre 2020 à Novembre 2021",
+        "desc": "J'ai profité du Covid pour passer un DEJEPS Escalade en milieux naturels en apprentissage avec la ligue FFME de Normandie afin de pouvoir travailler en tant que moniteur d'escalade.<br>Pendant ma période dans l'assocation j'ai pu travaillé sur le développement de la pratique de l'escalade en milieu naturel, sur le développement du haut-niveau dans le région, sur les formations fédérales et le développement de l'association sur le territoire."
+      },
       "orange-apprenticeship": {
-        "title": "Apprenti",
-        "duration": "Septembre 2017 à aujourd'hui",
-        "desc": "Je travaille pour des projets d'anticipation d'Orange Business Services."
+        "title": "Développeur backend",
+        "duration": "Septembre 2017 à Août 2020",
+        "desc": "J'ai travaillé pour Orange Business Services pendant 3 ans dans le cadre de mon apprentissage. J'ai pu construire en équipe un projet du prototype jusqu'à sa commercialisation. Ce projet est la réalisation d'une plateforme de communication (CPaaS) afin de permettre aux développeurs externe à Orange d'utiliser les différents canaux de communications (voix, SMS, e-mail, WebRTC, ...) de l'entreprise via une API HTTP. Ce fût une expérience très enrichissante, j'ai pu travaillé sur tous les aspects du projet : conception, développement du backend (architecture microservices, rabbitmq, architecture clean et hexagonale), du frontend (Vue.js), tests, CI/CD, monitoring, facturation, ..."
       },
       "orange-intern": {
-        "title": "Stagiaire en développement web",
+        "title": "Developpeur fullstack",
         "duration": "Mars 2017 à Juin 2017",
-        "desc": "Réalisation d'une application web d'aide à la spécification.<br>Les travaux s'inscrivent dans le cadre d'un projet de développement pour une offre de communications à l'international, organisée en méthode agile et cycles courts.<br>Participation aux réunions de définition du service avec l'équipe projet, j'ai dû comprendre les besoins des architectes et développeurs concernant la gestion de spécification.<br>Les principales fonctionnalités réalisées sont : contrôle de gestion de version de spécification, chaîne de publication des spécifications, annotations, notifications.<br>La solution est basée sur les technologies web modernes (Node.js, Vue.js) et inspirées des méthodes de développement récentes."
+        "desc": "Réalisation d'une application web d'aide à la spécification.<br>Les travaux s'inscrivent dans le cadre d'un projet de développement pour une offre de communications à l'international, organisée en méthode agile et cycles courts.<br>Les principales fonctionnalités réalisées sont : contrôle de gestion de version de spécification, chaîne de publication des spécifications, annotations, notifications.<br>La solution est basée sur les technologies web modernes (Node.js, Vue.js) et inspirées des méthodes de développement récentes."
       },
       "lisi": {
         "title": "Opérateur Polyvalent",
@@ -213,7 +221,7 @@
       "esgi2": {
         "title": "Mastère, architecture des logiciels (actuellement)",
         "duration": "2018 à 2020",
-        "desc": "Cycle mastère spécialité architecture des logiciels."
+        "desc": "Cycle mastère spécialité architecture des logiciels. J'ai réalisé en équipe pour mon projet de fin d'étude une application web de gestion de compétitions d'escalade avec des fonctionnalités innovantes : inscriptions, gestion des différents utilisateurs, de toutes les contraintes du métier, IA de reconnaissance de prises d'escalade, gestion des résultats selon le type de compétitions, gestions des tours, etc..."
       },
       "esgi": {
         "title": "Bachelor, architecture des logiciels - Major de promo",
@@ -233,26 +241,8 @@
     },
     "contact": {
       "title": "Contact",
-      "reset": "Réinitialiser",
-      "submit": "Envoyer",
-      "mandatory": "obligatoire",
-      "name": {
-        "label": "Nom",
-        "placeholder": "Votre nom"
-      },
-      "email": {
-        "label": "Email",
-        "placeholder": "Votre email"
-      },
-      "subject": {
-        "label": "Sujet",
-        "placeholder": "Sujet"
-      },
-      "message": {
-        "label": "Message",
-        "placeholder": "Message"
-      }
+      "text": "Si vous souhaitez me contacter, vous pouvez m'envoyer un e-mail à"
     },
-    "footer": "Fait avec <span class=\"icon\"><i class=\"fa fa-heart\"></i></span> par <a rel=\"noopener\" title=\"mail\" href=\"mailto:yaty@live.fr\">Hugo Da Roit</a>.<br>Le code est sous licence <a rel=\"noopener\" title=\"MIT\" target=\"_blank\" href=\"http://opensource.org/licenses/mit-license.php\">MIT</a> et est disponible <a rel=\"noopener\" title=\"GitHub\" target=\"_blank\" href=\"https://github.com/Yaty/hdaroit.fr\">ici</a>."
+    "footer": "Fait avec <span class=\"icon\"><i class=\"fa fa-heart\"></i></span> par <a rel=\"noopener\" title=\"mail\" href=\"mailto:contact@hdaroit.fr\">Hugo Da Roit</a>.<br>Le code est sous licence <a rel=\"noopener\" title=\"MIT\" target=\"_blank\" href=\"http://opensource.org/licenses/mit-license.php\">MIT</a> et est disponible <a rel=\"noopener\" title=\"GitHub\" target=\"_blank\" href=\"https://github.com/Yaty/hdaroit.fr\">ici</a>."
   }
 }

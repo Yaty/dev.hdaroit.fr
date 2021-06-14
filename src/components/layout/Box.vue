@@ -10,7 +10,7 @@
             <a target="_blank" rel="noopener" :aria-label="name" :href="link" class="button is-info level-item">
               <span class="is-hidden-mobile">GitHub</span>
               <span class="icon">
-                <i class="fa fa-github"></i>
+                <i class="fab fa-github"></i>
               </span>
             </a>
           </div>

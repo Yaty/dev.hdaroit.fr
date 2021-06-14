@@ -3,9 +3,9 @@
     <main-header></main-header>
     <section class="section">
       <welcome></welcome>
-      <projects></projects>
-      <opensource></opensource>
       <working-experiences></working-experiences>
+      <opensource></opensource>
+      <projects></projects>
       <school></school>
       <contact></contact>
     </section>
@@ -25,7 +25,7 @@
 
   export default {
     name: 'app',
-    components: { MainHeader, Welcome, Projects, Opensource, WorkingExperiences, School, Contact, MainFooter }
+    components: { MainHeader, Welcome, Projects, Opensource, WorkingExperiences, School, Contact, MainFooter },
   }
 </script>
 

@@ -14,7 +14,7 @@
               <i class="fab fa-2x fa-linkedin"></i>
             </span>
           </a>
-          <a rel="noopener" aria-label="yat@live.fr" class="is-danger" href="mailto:yaty@live.fr">
+          <a rel="noopener" aria-label="contact@hdaroit.fr" class="is-danger" href="mailto:contact@hdaroit.fr">
             <span class="icon is-large">
               <i class="fa fa-2x fa-envelope"></i>
             </span>

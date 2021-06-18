@@ -9,7 +9,7 @@
       <box :name="$t('projects.mining.title')" link="https://github.com/Yaty/explorationminiere">{{ $t('projects.mining.desc') }}</box>
       <box :name="$t('projects.yaty.title')" link="https://github.com/Yaty/yaty">{{ $t('projects.yaty.desc') }}</box>
       <box :name="$t('projects.yatyapi.title')" link="https://github.com/Yaty/yatyapi">{{ $t('projects.yatyapi.desc') }}</box>
-      <box :name="$t('projects.hdaroit.title')" link="https://github.com/Yaty/hdaroit.fr"><span v-html="$t('projects.hdaroit.desc')"></span></box>
+      <box :name="$t('projects.devhdaroit.title')" link="https://github.com/Yaty/dev.hdaroit.fr"><span v-html="$t('projects.devhdaroit.desc')"></span></box>
     </div>
   </container>
 </template>

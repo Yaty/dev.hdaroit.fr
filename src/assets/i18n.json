@@ -2,7 +2,7 @@
   "en": {
     "header": {
       "home": "Home",
-      "projects": "Projects",
+      "projects": "Personal projects",
       "workXp": "Work experiences",
       "opensource": "Open source contributions",
       "school": "Schooling",
@@ -17,7 +17,7 @@
       "title": "Welcome !"
     },
     "projects": {
-      "title": "Projects",
+      "title": "Personal projects",
       "paffme": {
         "title": "Climbing competition manager",
         "desc": "I built a complete climbing competition web application for my final project in school. I was charged of building the backend. I used Node.js, Typescript and PostgreSQL. This application handles everything needed for a climbing competition : from registrations to publishing the results. It handles every kind of competition based on the rules of the french climbing federation. It also have an AI to automatically recognize climbing holds on pictures from the climbing competition staff to map a climbing route for instance. This is my biggest non-working related project to date."
@@ -46,8 +46,8 @@
         "title": "Yaty API",
         "desc": "Full REST API for Yaty (JWT Auth, MySQL ...)."
       },
-      "hdaroit": {
-        "title": "hdaroit.fr",
+      "devhdaroit.fr": {
+        "title": "dev.hdaroit.fr",
         "desc": "This website is made with <a target=\"_blank\" rel=\"noopener\" href=\"https://vuejs.org/\">Vue.js</a> and <a target=\"_blank\" rel=\"noopener\" href=\"http://bulma.io/\">Bulma</a>."
       }
     },
@@ -125,7 +125,7 @@
   "fr": {
     "header": {
       "home": "Accueil",
-      "projects": "Projets",
+      "projects": "Projets personnels",
       "workXp": "Expériences professionnelles",
       "opensource": "Contributions Open Source",
       "school": "Scolarité",
@@ -140,7 +140,7 @@
       "title": "Bienvenue !"
     },
     "projects": {
-      "title": "Projets",
+      "title": "Projets personnels",
       "paffme": {
         "title": "Gestion de compétitons d'escalade",
         "desc": "J'ai développé une application web permettant la gestion de compétitions d'escalade. J'étais chargé du développement du backend. J'ai utilisé Node.js, Typescript et PostgreSQL. Cette application gère tous les éléments d'une compétition : des inscriptions à la publication des résultats. Elle gère tous les types de compétitions selon les règles de la fédération française d'escalade. Elle contient aussi une IA afin de reconnaitre automatiquement les prises d'escalade sur une photo prise par un membre de l'organisation d'une compétition. C'est le plus gros projet non professionnel que j'ai eu à réalisé."
@@ -169,8 +169,8 @@
         "title": "Yaty API",
         "desc": "API REST complète pour Yaty (JWT Auth, MySQL ...)."
       },
-      "hdaroit": {
-        "title": "hdaroit.fr",
+      "devhdaroit.fr": {
+        "title": "dev.hdaroit.fr",
         "desc": "Ce site est réalisé avec l'aide de <a rel=\"noopener\" target=\"_blank\" href=\"https://vuejs.org/\">Vue.js</a> et <a target=\"_blank\" rel=\"noopener\" href=\"http://bulma.io/\">Bulma</a>."
       }
     },

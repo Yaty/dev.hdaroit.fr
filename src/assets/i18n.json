@@ -7,13 +7,13 @@
       "opensource": "Open source contributions",
       "school": "Schooling",
       "contact": "Contact",
-      "job": "Freelance backend developer",
+      "job": "Freelance software engineer",
       "yearsXp": "years XP",
       "climbing": "Climbing instructor",
       "photography": "Photographer"
     },
     "welcome": {
-      "message": "Hello, I'm Hugo, a backend developer. I work as a freelance and I mostly code with Node.js and TypeScript.<br><br>I worked on several telecommunications projects for Orange.<br><br>My field of expertise includes :<br>- backend development : Node.js and TypeScript or Javascript, testing (unit, integration, e2e, perf, ...)<br>- API exposure with HTTP protocol mainly: REST, GraphQL<br>- architecture: microservices, clean, hexagonal, communication between services (AMQP, HTTP, ...)<br>- the cloud: Kubernetes, Openshift, Docker, monitoring solutions (Prometheus, Grafana), autoscaling<br>- DevOps: release automation, CI/CD (GitHub or GitLab), monitoring<br>- front-end development : Vue.js<br><br>I like when the code is well done, simple, tested, elegant and that it brings a real added value to the final product for the end user!<br><br>I'm serious and I like to work in a team. I contribute on open source projects when I have time.<br><br>I'm also a climbing instructor in Normandy. I wish to promote the values of my sport through my different jobs: sharing, commitment, respect, self-confidence and trust in others, having fun, managing failure and success, perseverance and many others!",
+      "message": "Hello, I'm Hugo, a software engineer specialized in backend development. I work as a freelance and I mostly code with Node.js and TypeScript.<br><br>I worked on several telecommunications projects for Orange.<br><br>My field of expertise includes :<br>- backend development : Node.js and TypeScript or Javascript, testing (unit, integration, e2e, perf, ...)<br>- API exposure with HTTP protocol mainly: REST, GraphQL<br>- architecture: microservices, clean, hexagonal, communication between services (AMQP, HTTP, ...)<br>- the cloud: Kubernetes, Openshift, Docker, monitoring solutions (Prometheus, Grafana), autoscaling<br>- DevOps: release automation, CI/CD (GitHub or GitLab), monitoring<br>- front-end development : Vue.js<br><br>I like when the code is well done, simple, tested, elegant and that it brings a real added value to the final product for the end user!<br><br>I'm serious and I like to work in a team. I contribute on open source projects when I have time.<br><br>I'm also a climbing instructor in Normandy. I wish to promote the values of my sport through my different jobs: sharing, commitment, respect, self-confidence and trust in others, having fun, managing failure and success, perseverance and many others!",
       "title": "Welcome !"
     },
     "projects": {
@@ -55,9 +55,9 @@
     "working": {
       "title": "Working Experiences",
       "freelance": {
-        "title": "Freelance backend developer",
+        "title": "Freelance software engineer",
         "duration": "August 2020 to now",
-        "desc": "I'm currently a freelance backend developer, I mostly work with Node.js, TypeScript and JavaScript.",
+        "desc": "I'm currently a freelance software engineer specialized in backend development, I mostly work with Node.js, TypeScript and JavaScript.",
         "location": "Remotely or at Caen, France"
       },
       "climbing": {
@@ -130,13 +130,13 @@
       "opensource": "Contributions Open Source",
       "school": "Scolarité",
       "contact": "Contact",
-      "job": "Développeur backend freelance",
+      "job": "Ingénieur logiciel freelance",
       "yearsXp": "années d'XP",
       "climbing": "Moniteur d'escalade",
       "photography": "Photographe"
     },
     "welcome": {
-      "message": "Bonjour, je m'appelle Hugo et je suis développeur backend. Je suis freelance et je code principalement avec Node.js et TypeScript ou JavaScript.<br><br>J'ai déjà réalisé plusieurs projets de télécommunication pour Orange et ses clients finaux.<br><br>Mon champ de compétences comprend :<br>- le développement backend : Node.js en TypeScript ou en Javascript, tests (unitaires, d'intégrations, e2e, perf, ...)<br>- l'exposition d'API avec le protocole HTTP principalement : REST, GraphQL<br>- l'architecture : microservices, clean, hexagonal, communication entre les services (AMQP, HTTP, ...)<br>- le cloud : Kubernetes, Openshift, Docker, solutions de monitoring (Prometheus, Grafana), autoscaling<br>- le DevOps : automatisation des releases, CI/CD (GitHub ou GitLab), monitoring<br>- le développement front : Vue.js<br><br>J'aime que le code soit bien fait, simple, testé, élégant et que celui-ci apporte une vraie plus-value au produit pour l'utilisateur final !<br><br>Je suis sérieux et j'aime travailler en équipe. Contributeur sur des projets open source quand j'ai du temps.<br><br>Je suis aussi moniteur d'escalade indépendant en Normandie en parallèle de mon métier de développeur. Je souhaite promouvoir les valeurs de mon sport à travers mes différentes professions : le partage, l'engagement, le respect, la confiance en soi et dans l'autre, le plaisir, la gestion de l'échec et de la réussite, la persévérance et tant d'autres !",
+      "message": "Bonjour, je m'appelle Hugo et je suis ingénieur logiciel spécialisé dans le développement backend. Je suis freelance et je code principalement avec Node.js et TypeScript ou JavaScript.<br><br>J'ai déjà réalisé plusieurs projets de télécommunication pour Orange et ses clients finaux.<br><br>Mon champ de compétences comprend :<br>- le développement backend : Node.js en TypeScript ou en Javascript, tests (unitaires, d'intégrations, e2e, perf, ...)<br>- l'exposition d'API avec le protocole HTTP principalement : REST, GraphQL<br>- l'architecture : microservices, clean, hexagonal, communication entre les services (AMQP, HTTP, ...)<br>- le cloud : Kubernetes, Openshift, Docker, solutions de monitoring (Prometheus, Grafana), autoscaling<br>- le DevOps : automatisation des releases, CI/CD (GitHub ou GitLab), monitoring<br>- le développement front : Vue.js<br><br>J'aime que le code soit bien fait, simple, testé, élégant et que celui-ci apporte une vraie plus-value au produit pour l'utilisateur final !<br><br>Je suis sérieux et j'aime travailler en équipe. Contributeur sur des projets open source quand j'ai du temps.<br><br>Je suis aussi moniteur d'escalade indépendant en Normandie en parallèle de mon métier de développeur. Je souhaite promouvoir les valeurs de mon sport à travers mes différentes professions : le partage, l'engagement, le respect, la confiance en soi et dans l'autre, le plaisir, la gestion de l'échec et de la réussite, la persévérance et tant d'autres !",
       "title": "Bienvenue !"
     },
     "projects": {
@@ -178,9 +178,9 @@
     "working": {
       "title": "Expériences professionnelles",
       "freelance": {
-        "title": "Développeur backend freelance",
+        "title": "Ingénieur logiciel freelance",
         "duration": "Août 2020 à aujourd'hui",
-        "desc": "Je suis actuellement développeur backend freelance. Je travaille principalement avec Node.js, TypeScript et JavaScript.",
+        "desc": "Je suis actuellement ingénieur logiciel spécialisé dans le développement backend. Je suis freelance. Je travaille principalement avec Node.js, TypeScript et JavaScript.",
         "location": "En distanciel ou à Caen, France"
       },
       "climbing": {

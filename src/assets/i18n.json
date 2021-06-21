@@ -96,24 +96,24 @@
     "school": {
       "title": "Schooling",
       "esgi2": {
-        "title": "Master's degree, IT engineering (current)",
+        "title": "Master's degree, IT engineering",
         "duration": "2018 to 2020",
-        "desc": "Specialized in software architecture. I realized in team for my final project of study a web application to manage climbing competitions with innovative functionalities: registrations, management of the various users, handling all constraints from the business, IA to recognize climbing holds, management of the results according to the type of competitions, management of the turns, etc... "
+        "desc": "Specialized in software architecture."
       },
       "esgi": {
-        "title": "Bachelor's degree, IT engineering - Valedictorian",
+        "title": "Bachelor's degree, IT engineering",
         "duration": "2017 to 2018",
-        "desc": "Specialized in software architecture."
+        "desc": "Specialized in software architecture (Valedictorian)."
       },
       "dut": {
         "title": "Technology degree in IT",
         "duration": "2015 to 2017",
-        "desc": "Shingshang game in C without GUI in C, then with a GUI in Java with JavaFX.<br>Mining exploration game in Java <a rel=\"noopener\" href=\"https://github.com/Yaty/explorationminiere\">GitHub</a>.<br>Web application (log, sell and buy stuff online).<br>Multi-user chat in Java.<br>Multi-user drawing application in C.<br>Web application to fully interact with an Oracle database.<br>Java application to simulate a parking (JavaFX GUI)."
+        "desc": ""
       },
       "dumont": {
         "title": "High school diploma in sciences",
         "duration": "2013 to 2015",
-        "desc": "Specialized in engineering sciences, computing and digital science."
+        "desc": ""
       }
     },
     "contact": {
@@ -219,24 +219,24 @@
     "school": {
       "title": "Scolarité",
       "esgi2": {
-        "title": "Mastère, architecture des logiciels (actuellement)",
+        "title": "Mastère, architecture des logiciels",
         "duration": "2018 à 2020",
-        "desc": "Cycle mastère spécialité architecture des logiciels. J'ai réalisé en équipe pour mon projet de fin d'étude une application web de gestion de compétitions d'escalade avec des fonctionnalités innovantes : inscriptions, gestion des différents utilisateurs, de toutes les contraintes du métier, IA de reconnaissance de prises d'escalade, gestion des résultats selon le type de compétitions, gestions des tours, etc..."
+        "desc": "Cycle mastère spécialité architecture des logiciels."
       },
       "esgi": {
-        "title": "Bachelor, architecture des logiciels - Major de promo",
-        "duration": "2017 à 2018'hui",
-        "desc": "Cycle bachelor spécialité architecture des logiciels."
+        "title": "Bachelor, architecture des logiciels",
+        "duration": "2017 à 2018",
+        "desc": "Cycle bachelor spécialité architecture des logiciels (major de promo)."
       },
       "dut": {
         "title": "DUT Informatique",
         "duration": "2015 à 2017",
-        "desc": "Réalisation du jeu de plateau \"Shingshang\" en C (sans GUI) puis en Java (avec GUI via JavaFX).<br>Création d'un jeu vidéo 2D de type bac à sable en Java (https://github.com/Yaty/explorationminiere).<br>Création d'une application web permettant de s'enregistrer, de vendre et d'acheter des produits divers.<br>Élaboration d'un serveur de discussion en Java.<br>Conception d'une application permettant à des clients des dessiner sur une fenêtre à distance en C.<br>Création d'un site internet afin de manipuler une base de données.<br>Adaptation d'un système permettant de simuler un parking en Java (JavaFX pour l'interface)."
+        "desc": ""
       },
       "dumont": {
         "title": "Baccalauréat Scientifique",
         "duration": "2013 à 2015",
-        "desc": "Bac S Sciences de l'Ingénieur, spécialité Informatique et Sciences du Numérique<br>Mention Assez Bien"
+        "desc": "Bac S Sciences de l'Ingénieur, spécialité Informatique et Sciences du Numérique"
       }
     },
     "contact": {

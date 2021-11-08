@@ -46,7 +46,7 @@
         "title": "Yaty API",
         "desc": "Full REST API for Yaty (JWT Auth, MySQL ...)."
       },
-      "devhdaroit.fr": {
+      "devhdaroit": {
         "title": "dev.hdaroit.fr",
         "desc": "This website is made with <a target=\"_blank\" rel=\"noopener\" href=\"https://vuejs.org/\">Vue.js</a> and <a target=\"_blank\" rel=\"noopener\" href=\"http://bulma.io/\">Bulma</a>."
       }
@@ -69,7 +69,7 @@
       "photo": {
         "title": "Photographer",
         "duration": "November 2021 to now",
-        "desc": "I mainly shoot climbing outdoors and during competitions.",
+        "desc": "I mainly shoot sport climbing outdoors and during competitions.",
         "location": "France"
       },
       "ffme": {

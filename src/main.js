@@ -12,7 +12,8 @@ Vue.use(VueI18n)
 Vue.use(VueLazyload, { observer: true })
 
 const i18n = new VueI18n({
-  locale: 'fr',
+  locale: navigator.language,
+  fallbackLocale: 'en',
   messages
 })
 

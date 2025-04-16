@@ -1,25 +1,14 @@
-import Vue from 'vue'
-import VueScrollTo from 'vue-scrollto'
-import VueI18n from 'vue-i18n'
-import VueLazyload from 'vue-lazyload'
-import App from './App'
-import messages from './assets/i18n.json'
-import '@fortawesome/fontawesome-free/css/all.min.css'
+import { createApp } from "vue";
+import { createI18n } from "vue-i18n";
+import App from "./App.vue";
+import messages from "./assets/i18n.json";
 
-Vue.config.productionTip = false
-Vue.use(VueScrollTo, { offset: -50 })
-Vue.use(VueI18n)
-Vue.use(VueLazyload, { observer: true })
-
-const i18n = new VueI18n({
+const i18n = createI18n({
+  legacy: false,
   locale: navigator.language,
-  fallbackLocale: 'en',
-  messages
-})
+  fallbackLocale: "en",
+  warnHtmlMessage: false,
+  messages,
+});
 
-new Vue({
-  i18n,
-  el: '#app',
-  render: h => h(App),
-  components: { App }
-})
+createApp(App).use(i18n).mount("#app");
